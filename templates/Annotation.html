@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <h1>Two Unequal Responsive Columns</h1>
+    <p>Resize the browser window to see the effect.</p>
+    <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+    <div class="row">
+        <div class="col-sm-4" style="background-color:lavender;">
+            <div class="container">
+                <h2>Accordion Example</h2>
+                <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+                <div id="accordion">
+                    {% if messages %}
+                            {% for i in range(messages["Stake_len"]) %}
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#AccId{{i}}">
+                                            {{messages["Stakeholders"][i]}}
+                                        </a>
+                                    </div>
+                                    <div id="AccId{{i}}" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8" style="background-color:lavenderblush;">.col-sm-8</div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+
+
+</body>
+</html>
