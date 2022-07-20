@@ -1,0 +1,160 @@
+PREFIX Ir: <http://foo.example/IncidentReporting/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+    Ir:AIAAIC0870 a Ir:Incident;
+	Ir:hasHeadline "Tesla Smart Summon";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Smart Summon";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Summon car";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-smart-summon#h.4mjdwgbvxyyc";
+	Ir:hasStakeholder Ir:FairOperationsStakeholders;
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:PropertyRights;
+	Ir:hasImpact Ir:Fairinformation;
+	Ir:Comments "Fair marketing, factual and unbiased information and fair contractual practices.[System not behaving as advertised/informed]".
+
+    Ir:AIAAIC0869 a Ir:Incident;
+	Ir:hasHeadline "Google Docs inclusive language warnings";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Assistive Writing";
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Detect inappropriate language";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-docs-inclusive-language-warnings#h.vmm5fcg14198";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "freedom of opinion and expression".
+
+    Ir:AIAAIC0868 a Ir:Incident;
+	Ir:hasHeadline "Coupang own brand search engine rigging";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Technology;
+	Ir:applicationSector Ir:Retail;
+	Ir:hasSystem "Coupang Commerce search";
+	Ir:hasSystem "Coupang Video search";
+	Ir:operatedBy Ir:Coupang;
+	Ir:developedBy Ir:Coupang;
+	Ir:hasPurpose "Rank content/search results";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/coupang-own-brand-search-engine-rigging#h.9fhfx9xan1r6";
+	Ir:hasStakeholder Ir:FairOperationsStakeholders;
+	Ir:hasImpact Ir:Faircompetetion.
+
+    Ir:AIAAIC0867 a Ir:Incident;
+	Ir:hasHeadline "Naver own brand search engine rigging";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Technology;
+	Ir:applicationSector Ir:Retail;
+	Ir:hasSystem "Naver Search";
+	Ir:operatedBy Ir:Naver;
+	Ir:developedBy Ir:Naver;
+	Ir:hasPurpose "Rank content/search results";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/naver-own-brand-search-engine-rigging#h.latyrsg9nymp";
+	Ir:hasStakeholder Ir:FairOperationsStakeholders;
+	Ir:hasImpact Ir:Faircompetetion.
+
+    Ir:AIAAIC0866 a Ir:Incident;
+	Ir:hasHeadline "Zoom AI emotion recognition";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Zoom IQ for Sales";
+	Ir:operatedBy Ir:Zoom;
+	Ir:developedBy Ir:Zoom;
+	Ir:hasPurpose "Monitor & analyse emotion";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/zoom-ai-emotion-recognition#h.ivlugafepmcd";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:DataProtection;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:Comments "Privacy Issues. Difference in ways emotions are expressed in different cultures.".
+
+    Ir:AIAAIC0865 a Ir:Incident;
+	Ir:hasHeadline "Intel AI student emotion monitoring";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Education;
+	Ir:hasSystem "Class";
+	Ir:developedBy Ir:Intel;
+	Ir:developedBy Ir:Classroom_Technologies;
+	Ir:hasPurpose "Improve student engagement";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/intel-ai-student-emotion-monitoring#h.qahxuj1pbq0k";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:DataProtection;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:Comments "Privacy Issues. Difference in ways emotions are expressed in different cultures.".
+
+    Ir:AIAAIC0864 a Ir:Incident;
+	Ir:hasHeadline "Instagram DM 'systemic' abuse, harassment";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Instagram Direct Messenger";
+	Ir:hasSystem "Instagram Direct";
+	Ir:operatedBy Ir:Meta_Instagram;
+	Ir:developedBy Ir:Meta_Instagram;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/instagram-dm-systemic-abuse-harassment#h.us3tjeecjw7p";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:hasImpact Ir:ResolvingGrievances;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:ConsumerService;
+	Ir:Comments "Failing to block abusive accounts. the right to a life with dignity, the right to freedom from torture, the right to security of person. Complaint Dispute Resolution.".
+
+    Ir:AIAAIC0863 a Ir:Incident;
+	Ir:hasHeadline "Microsoft 'future teen' pregnancy system";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Argentina;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:hasIncidentRegion Ir:Colombia;
+	Ir:applicationSector Ir:Govt_-_health;
+	Ir:hasSystem "Technology Platform for Social Intervention";
+	Ir:operatedBy Ir:Ministry_of_Early_Childhoood__Salta_Province;
+	Ir:developedBy Ir:Microsoft;
+	Ir:developedBy Ir:Conin_Foundation;
+	Ir:hasPurpose "Predict teenager pregnancy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/microsoft-future-teen-pregnancy-system#h.qmk9sk1tfegq";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:Comments "freedom from arbitrary interference with privacy, freedom from attacks on honour or reputation. Biased against local indigenous people.".
+
+    Ir:AIAAIC0862 a Ir:Incident;
+	Ir:hasHeadline "Cruise driverless car pulls away from police";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:operatedBy Ir:GM_Cruise;
+	Ir:developedBy Ir:GM_Cruise;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/cruise-driverless-car-pulls-away-from-police#h.prtwgqt8mncb";
+	Ir:Comments "Incident not clear enough for annotation".
+
+    Ir:AIAAIC0861 a Ir:Incident;
+	Ir:hasHeadline "Malaysia AI court sentencing";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Malaysia;
+	Ir:applicationSector Ir:Govt_-_justice;
+	Ir:operatedBy Ir:Mahkamah_Persekutuan_Malaysia;
+	Ir:developedBy Ir:Sarawak_Information_Systems__SAINS_;
+	Ir:hasPurpose "Achieve greater sentencing consistency";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/malaysia-ai-court-sentencing#h.o2l6iklo1nv9";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:hasImpact Ir:DueDiligence;
+	Ir:Comments "right to due process of law and a fair hearing when facing criminal charges. Racially biased. no proper consultation training before implementing".

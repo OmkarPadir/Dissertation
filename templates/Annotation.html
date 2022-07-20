@@ -9,46 +9,186 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>ul {list-style: none;}</style>
 </head>
 <body>
+
 <div class="container-fluid">
-    <h1>Two Unequal Responsive Columns</h1>
-    <p>Resize the browser window to see the effect.</p>
-    <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+    <h1 class="text-center">AI Incidents Annotation Tool</h1>
     <div class="row">
         <div class="col-sm-4" style="background-color:lavender;">
             <div class="container">
-                <h2>Accordion Example</h2>
-                <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+                <h2 class="text-center">Stakeholders & Issues</h2>
+<!--                <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>-->
                 <div id="accordion">
                     {% if messages %}
                             {% for i in range(messages["Stake_len"]) %}
                                 <div class="card">
                                     <div class="card-header">
                                         <a class="card-link" data-toggle="collapse" href="#AccId{{i}}">
-                                            {{messages["Stakeholders"][i]}}
+                                            {{messages["Stakeholders"][i][1]}}
                                         </a>
                                     </div>
                                     <div id="AccId{{i}}" class="collapse" data-parent="#accordion">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            {% for k in messages["StakeholderIssues"][messages["Stakeholders"][i][0]]%}
+                                            <a href="#" class="btn btn-info" role="button" data-toggle="popover" data-trigger="focus" title="Description" data-content="{{messages['IssueDescription'][k]}}">{{k}}</a></br></br>
+                                            {% endfor %}
                                         </div>
                                     </div>
                                 </div>
                             {% endfor %}
                     {% endif %}
-
                 </div>
             </div>
         </div>
-        <div class="col-sm-8" style="background-color:lavenderblush;">.col-sm-8</div>
+        <div class="col-sm-8" style="background-color:lavenderblush;">
+            <h2 class="text-center">Annotation</h2>
+            <form action="/" method="post" novalidate>
+                {{ form.hidden_tag() }}
+                {{ form.csrf_token }}
+                <div id="Incidentaccordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#IncidentData">
+                            Incident Data
+                        </a>
+                    </div>
+                    <div id="IncidentData" class="collapse" data-parent="#Incidentaccordion">
+                        <div class="card-body">
+
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        {{ form.IncidentId.label }}
+                                        {{ form.IncidentId(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.IncidentYear.label }}
+                                        {{ form.IncidentYear(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.AISystem.label }}
+                                        {{ form.AISystem(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.AIRegion.label }}
+                                        {{ form.AIRegion(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.AIDeveloper.label }}
+                                        {{ form.AIDeveloper(class_="form-control", size=32) }}
+                                    </div>
+                                    <div class="form-group col-6">
+                                        {{ form.IncidentHeadline.label }}
+                                        {{ form.IncidentHeadline(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.IncidentURL.label }}
+                                        {{ form.IncidentURL(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.AIPurpose.label }}
+                                        {{ form.AIPurpose(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.AISector.label }}
+                                        {{ form.AISector(class_="form-control", size=32) }}
+                                        </br>
+                                        {{ form.AIOperator.label }}
+                                        {{ form.AIOperator(class_="form-control", size=32) }}
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div id="Impactaccordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#ImpactData">
+                            Stakeholders and Impacts
+                        </a>
+                    </div>
+                    <div id="ImpactData" class="collapse" data-parent="#Impactaccordion">
+                        <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        {{ form.StakeholderList.label }}
+                                        {{ form.StakeholderList(class_="form-control") }}
+                                        </br>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        {{ form.ImpactList.label }}
+                                        {{ form.ImpactList }}
+                                    </div>
+                                </div>
+                            <div id="buttonST2" class="btn btn-primary" onclick="addST(2)">Add Stakeholder</div>
+                            <div id="removeST2" class="btn btn-primary d-none" onclick="removeST(2)">Remove Stakeholder</div>
+                            {{ form.SI2(class_="form-control") }}
+                            <div id="Impact2" class="row d-none">
+                                <div class="form-group col-6">
+                                    {{ form.StakeholderList2.label }}
+                                    {{ form.StakeholderList2(class_="form-control") }}
+                                    </br>
+                                </div>
+                                <div class="form-group col-6">
+                                    {{ form.ImpactList2.label }}
+                                    {{ form.ImpactList2 }}
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                <div>
+                    {{ form.submit(class_="form-control") }}
+                </div>
+
+            </form>
     </div>
+</div>
 </div>
 
 <script>
 $(document).ready(function(){
   $('[data-toggle="popover"]').popover();
 });
+
+function addST(eid) {
+document.getElementById("Impact"+eid).classList.remove('d-none');
+document.getElementById("removeST"+eid).classList.remove('d-none');
+document.getElementById("buttonST"+eid).classList.add('d-none');
+document.getElementById("SI"+eid).checked = true;
+}
+
+function removeST(eid) {
+document.getElementById("Impact"+eid).classList.add('d-none');
+document.getElementById("removeST"+eid).classList.add('d-none');
+document.getElementById("buttonST"+eid).classList.remove('d-none');
+document.getElementById("SI"+eid).checked = false;
+}
+
+let stakelist = document.getElementById('StakeholderList');
+let impactlist = document.getElementById('ImpactList');
+
+stakelist.onchange=function(){
+        changeImpacts(stakelist,impactlist,"")
+    }
+
+let stakelist2 = document.getElementById('StakeholderList2');
+let impactlist2 = document.getElementById('ImpactList2');
+
+stakelist2.onchange=function(){
+        changeImpacts(stakelist2,impactlist2,2)
+    }
+
+function changeImpacts(stakelist,impactlist,impact_no){
+stake = stakelist.value;
+        fetch('/impact/' + stake).then(function(response){
+            response.json().then(function(data){
+                let newHTML=''
+                for(let impact of data){
+                newHTML += '<li><input id="' +impact.id+ '" name="ImpactList'+impact_no+'" type="checkbox" value="'+impact.id+'"> <label for="'+impact.id+'">'+impact.name+'</label></li></ul>';
+            }
+            impactlist.innerHTML = newHTML;
+            });
+
+        });
+}
 </script>
 
 
