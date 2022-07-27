@@ -13,7 +13,7 @@ def query(query):
 def insert(query):
     sparql_insert.setQuery(query)
     sparql_insert.method = 'POST'
-    sparql_insert.setReturnFormat(JSON)
+    # sparql_insert.setReturnFormat(JSON)
     results = sparql_insert.query()#.convert()
     # print("Results  ",results)
     return results
@@ -164,7 +164,7 @@ def InsertData(form):
 
 
         if is_filled(IncidentHeadline):
-            Triplets += ";\n\t Ir:hasHeadline "+str(IncidentHeadline)
+            Triplets += ";\n\t Ir:hasHeadline \""+str(IncidentHeadline)+"\""
         if is_filled(AISystem):
             Triplets += ";\n\t Ir:hasSystem \""+str(AISystem)+"\""
         if is_filled(AIPurpose):

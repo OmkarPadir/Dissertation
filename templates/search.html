@@ -1,0 +1,112 @@
+{% extends "Annotation.html" %}
+
+{% block content %}
+
+<div class="col-sm-8" style="background-color:lavenderblush;">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="/annotate">Annotate</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="/search">Search</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/menu2">Menu 2</a>
+    </li>
+  </ul>
+
+
+  <!-- Tab panes -->
+<div class="tab-content">
+<!--  <div class="tab-pane container" id="annotate">...</div>-->
+  <div class="tab-pane container active" id="search">
+    <form action="/search" method="post" novalidate>
+    {{ search_form.hidden_tag() }}
+    {{ search_form.csrf_token }}
+    <div id="Search_Incidentaccordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#Search_IncidentData">
+            Incident Data
+          </a>
+        </div>
+        <div id="Search_IncidentData" class="collapse" data-parent="#Search_Incidentaccordion">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="form-group col-6">
+                {{ search_form.Search_IncidentId.label }}
+                {{ search_form.Search_IncidentId(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_IncidentYear.label }}
+                {{ search_form.Search_IncidentYear(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_AISystem.label }}
+                {{ search_form.Search_AISystem(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_AIRegion.label }}
+                {{ search_form.Search_AIRegion(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_AIDeveloper.label }}
+                {{ search_form.Search_AIDeveloper(class_="form-control", size=32) }}
+              </div>
+              <div class="form-group col-6">
+                {{ search_form.Search_IncidentHeadline.label }}
+                {{ search_form.Search_IncidentHeadline(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_IncidentURL.label }}
+                {{ search_form.Search_IncidentURL(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_AIPurpose.label }}
+                {{ search_form.Search_AIPurpose(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_AISector.label }}
+                {{ search_form.Search_AISector(class_="form-control", size=32) }}
+                </br>
+                {{ search_form.Search_AIOperator.label }}
+                {{ search_form.Search_AIOperator(class_="form-control", size=32) }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Search_Impactaccordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#Search_ImpactData">
+            Stakeholders and Impacts
+          </a>
+        </div>
+        <div id="Search_ImpactData" class="collapse" data-parent="#Search_Impactaccordion">
+          <div class="card-body">
+            <div class="row">
+              <div class="form-group col-6">
+                {{ search_form.Search_StakeholderList.label }}
+                {{ search_form.Search_StakeholderList(class_="form-control",**{"onchange":"MyF()"}) }}
+                </br>
+              </div>
+              <div class="form-group col-6">
+                {{ search_form.Search_ImpactList.label }}
+                {{ search_form.Search_ImpactList }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      {{ search_form.Search_submit(class_="form-control") }}
+    </div>
+
+  </form>
+  </div>
+<!--  <div class="tab-pane container fade" id="menu2">...</div>-->
+</div>
+</div>
+{% endblock %}
+
+
+
+

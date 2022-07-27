@@ -1,0 +1,122 @@
+{% extends "Annotation.html" %}
+
+{% block content %}
+<div class="col-sm-8" style="background-color:lavenderblush;">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="/annotate">Annotate</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/search">Search</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/menu2">Menu 2</a>
+        </li>
+    </ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane container active" id="annotate">
+        <form action="/annotate" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            {{ form.csrf_token }}
+            <div id="Incidentaccordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#IncidentData">
+                            Incident Data
+                        </a>
+                    </div>
+                    <div id="IncidentData" class="collapse" data-parent="#Incidentaccordion">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    {{ form.IncidentId.label }}
+                                    {{ form.IncidentId(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.IncidentYear.label }}
+                                    {{ form.IncidentYear(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.AISystem.label }}
+                                    {{ form.AISystem(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.AIRegion.label }}
+                                    {{ form.AIRegion(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.AIDeveloper.label }}
+                                    {{ form.AIDeveloper(class_="form-control", size=32) }}
+                                </div>
+                                <div class="form-group col-6">
+                                    {{ form.IncidentHeadline.label }}
+                                    {{ form.IncidentHeadline(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.IncidentURL.label }}
+                                    {{ form.IncidentURL(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.AIPurpose.label }}
+                                    {{ form.AIPurpose(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.AISector.label }}
+                                    {{ form.AISector(class_="form-control", size=32) }}
+                                    </br>
+                                    {{ form.AIOperator.label }}
+                                    {{ form.AIOperator(class_="form-control", size=32) }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Impactaccordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#ImpactData">
+                            Stakeholders and Impacts
+                        </a>
+                    </div>
+                    <div id="ImpactData" class="collapse" data-parent="#Impactaccordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    {{ form.StakeholderList.label }}
+                                    {{ form.StakeholderList(class_="form-control") }}
+                                    </br>
+                                </div>
+                                <div class="form-group col-6">
+                                    {{ form.ImpactList.label }}
+                                    {{ form.ImpactList }}
+                                </div>
+                            </div>
+                            <div id="buttonST2" class="btn btn-primary" onclick="addST(2)">Add Stakeholder</div>
+                            <div id="removeST2" class="btn btn-primary d-none" onclick="removeST(2)">Remove Stakeholder</div>
+                            {{ form.SI2(class_="form-control") }}
+                            <div id="Impact2" class="row d-none">
+                                <div class="form-group col-6">
+                                    {{ form.StakeholderList2.label }}
+                                    {{ form.StakeholderList2(class_="form-control") }}
+                                    </br>
+                                </div>
+                                <div class="form-group col-6">
+                                    {{ form.ImpactList2.label }}
+                                    {{ form.ImpactList2 }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                {{ form.submit(class_="form-control") }}
+            </div>
+
+        </form>
+    </div>
+<!--    <div class="tab-pane container" id="search">.??..</div>-->
+<!--    <div class="tab-pane container fade" id="menu2">...</div>-->
+</div>
+
+</div>
+
+{% endblock %}

@@ -42,104 +42,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-8" style="background-color:lavenderblush;">
-            <h2 class="text-center">Annotation</h2>
-            <form action="/" method="post" novalidate>
-                {{ form.hidden_tag() }}
-                {{ form.csrf_token }}
-                <div id="Incidentaccordion">
-                <div class="card">
-                    <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#IncidentData">
-                            Incident Data
-                        </a>
-                    </div>
-                    <div id="IncidentData" class="collapse" data-parent="#Incidentaccordion">
-                        <div class="card-body">
 
-                                <div class="row">
-                                    <div class="form-group col-6">
-                                        {{ form.IncidentId.label }}
-                                        {{ form.IncidentId(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.IncidentYear.label }}
-                                        {{ form.IncidentYear(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.AISystem.label }}
-                                        {{ form.AISystem(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.AIRegion.label }}
-                                        {{ form.AIRegion(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.AIDeveloper.label }}
-                                        {{ form.AIDeveloper(class_="form-control", size=32) }}
-                                    </div>
-                                    <div class="form-group col-6">
-                                        {{ form.IncidentHeadline.label }}
-                                        {{ form.IncidentHeadline(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.IncidentURL.label }}
-                                        {{ form.IncidentURL(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.AIPurpose.label }}
-                                        {{ form.AIPurpose(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.AISector.label }}
-                                        {{ form.AISector(class_="form-control", size=32) }}
-                                        </br>
-                                        {{ form.AIOperator.label }}
-                                        {{ form.AIOperator(class_="form-control", size=32) }}
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <div id="Impactaccordion">
-                <div class="card">
-                    <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#ImpactData">
-                            Stakeholders and Impacts
-                        </a>
-                    </div>
-                    <div id="ImpactData" class="collapse" data-parent="#Impactaccordion">
-                        <div class="card-body">
-                                <div class="row">
-                                    <div class="form-group col-6">
-                                        {{ form.StakeholderList.label }}
-                                        {{ form.StakeholderList(class_="form-control") }}
-                                        </br>
-                                    </div>
-                                    <div class="form-group col-6">
-                                        {{ form.ImpactList.label }}
-                                        {{ form.ImpactList }}
-                                    </div>
-                                </div>
-                            <div id="buttonST2" class="btn btn-primary" onclick="addST(2)">Add Stakeholder</div>
-                            <div id="removeST2" class="btn btn-primary d-none" onclick="removeST(2)">Remove Stakeholder</div>
-                            {{ form.SI2(class_="form-control") }}
-                            <div id="Impact2" class="row d-none">
-                                <div class="form-group col-6">
-                                    {{ form.StakeholderList2.label }}
-                                    {{ form.StakeholderList2(class_="form-control") }}
-                                    </br>
-                                </div>
-                                <div class="form-group col-6">
-                                    {{ form.ImpactList2.label }}
-                                    {{ form.ImpactList2 }}
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-                <div>
-                    {{ form.submit(class_="form-control") }}
-                </div>
-
-            </form>
-    </div>
+        {% block content %}{% endblock %}
 </div>
 </div>
 
@@ -147,6 +51,7 @@
 $(document).ready(function(){
   $('[data-toggle="popover"]').popover();
 });
+
 
 function addST(eid) {
 document.getElementById("Impact"+eid).classList.remove('d-none');
@@ -162,19 +67,39 @@ document.getElementById("buttonST"+eid).classList.remove('d-none');
 document.getElementById("SI"+eid).checked = false;
 }
 
+
+function MyF(){
+let stakelist = document.getElementById('Search_StakeholderList');
+let impactlist = document.getElementById('Search_ImpactList');
+let impact_no = "";
+stake = stakelist.value;
+        fetch('/impact/' + stake).then(function(response){
+            response.json().then(function(data){
+                let newHTML=''
+                for(let impact of data){
+                newHTML += '<li><input id="' +impact.id+ '" name="SearchImpactList'+impact_no+'" type="checkbox" value="'+impact.id+'"> <label for="'+impact.id+'">'+impact.name+'</label></li></ul>';
+            }
+            impactlist.innerHTML = newHTML;
+            });
+
+        });
+}
+
 let stakelist = document.getElementById('StakeholderList');
 let impactlist = document.getElementById('ImpactList');
 
 stakelist.onchange=function(){
-        changeImpacts(stakelist,impactlist,"")
+        changeImpacts(stakelist,impactlist,"");
     }
+
 
 let stakelist2 = document.getElementById('StakeholderList2');
 let impactlist2 = document.getElementById('ImpactList2');
 
 stakelist2.onchange=function(){
-        changeImpacts(stakelist2,impactlist2,2)
+        changeImpacts(stakelist2,impactlist2,"2");
     }
+
 
 function changeImpacts(stakelist,impactlist,impact_no){
 stake = stakelist.value;
@@ -189,6 +114,10 @@ stake = stakelist.value;
 
         });
 }
+
+
+
+
 </script>
 
 
