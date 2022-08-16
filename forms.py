@@ -35,7 +35,7 @@ class IncidentForm(FlaskForm):
     submit = SubmitField('Save')
 
 class SearchForm(FlaskForm):
-    Search_IncidentId = StringField('Incident Id:',validators=[DataRequired()])
+    Search_IncidentId = StringField('Incident Id:')
     Search_IncidentYear = IntegerField('Incident Year:')
     Search_IncidentHeadline = StringField('Incident Headline:')
     Search_AISystem = StringField('AI System:')
@@ -52,8 +52,10 @@ class SearchForm(FlaskForm):
     Search_StakeholderList = SelectField('Stakeholder', choices = [])
     Search_ImpactList = MultiCheckboxField('Impacts', choices = [])
     #
-    # Search_# SI2 = BooleanField("SI2")
+    Search_STI = BooleanField("Add Stakeholder and Impacts in Search Filter")
     # Search_# StakeholderList2 = SelectField('Stakeholder', choices = [])
     # Search_# ImpactList2 = MultiCheckboxField('Impacts', choices = [])
+
+    Similar_IncidentId = StringField('Incident Id:')
 
     Search_submit = SubmitField('Search')

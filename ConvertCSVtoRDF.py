@@ -28,7 +28,7 @@ data.set_index("Incident", drop=True, inplace=True)
 dictionary = data.to_dict(orient="index")
 
 
-f = open("TurtleData.ttl", "w")
+f = open("TurtleData.ttl", "w",encoding='utf-8', errors='ignore')
 
 
 Turtle_headers = '''PREFIX Ir: <http://foo.example/IncidentReporting/>
@@ -38,7 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 f.write(Turtle_headers)
 
 def sp_char_replace(string_data):
-    return str(string_data).replace("/","_").replace(" ","_").replace(",","_").replace("(","_").replace(")","_")
+    return str(string_data).replace("/","_").replace(" ","_").replace(",","_").replace("(","_").replace(")","_").replace("’","_").replace("&","_").replace("'","_").replace(".","_").replace("*","_").replace("`","_")
 
 for incident in dictionary:
     # print(incident)
@@ -70,5 +70,7 @@ for incident in dictionary:
     print(Triplet)
 
     f.write(Triplet)
+
+    print("File Write done")
 
 f.close()

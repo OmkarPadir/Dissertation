@@ -1,0 +1,29 @@
+{% extends "Annotation.html" %}
+
+{% block content %}
+
+<div class="col-sm-8" style="background-color:lavenderblush;">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="/annotate">Annotate</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="/search">Search</a>
+    </li>
+  </ul>
+
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="list-group">
+      {% if res %}
+      {% for i in res %}
+      <div class="list-group">
+        <a href="/view/{{i[0]}}" class="list-group-item list-group-item-action">{{i[0]}} <div style="float: right">Distance:{{i[1]}}</div></a>
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

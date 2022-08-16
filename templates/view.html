@@ -1,0 +1,39 @@
+{% extends "Annotation.html" %}
+
+{% block content %}
+
+<div class="col-sm-8" style="background-color:lavenderblush;">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="/annotate">Annotate</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/search">Search</a>
+        </li>
+    </ul>
+
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+            {% if res %}
+        <h2> Incident: {{incident}} </h2>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                </tr>
+                </thead>
+                <tbody>
+            {% for i in res%}
+                <tr>
+                    <td>{{i[0]}}</td>
+                    <td>{{i[1]}}</td>
+                </tr>
+            {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+</div>
+{% endblock %}

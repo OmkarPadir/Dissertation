@@ -10,9 +10,6 @@
     <li class="nav-item">
       <a class="nav-link active" href="/search">Search</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/menu2">Menu 2</a>
-    </li>
   </ul>
 
 
@@ -82,6 +79,8 @@
           <div class="card-body">
             <div class="row">
               <div class="form-group col-6">
+                {{ search_form.Search_STI.label }}
+                {{ search_form.Search_STI(class_="form-control") }}
                 {{ search_form.Search_StakeholderList.label }}
                 {{ search_form.Search_StakeholderList(class_="form-control",**{"onchange":"MyF()"}) }}
                 </br>
@@ -96,6 +95,29 @@
 
       </div>
     </div>
+      <div id="Search_Similar">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#Search_SimilarData">
+              Search Similar Incidents
+            </a>
+          </div>
+          <div id="Search_SimilarData" class="collapse" data-parent="#Search_Similar">
+            <div class="card-body">
+              <div class="row">
+                <div class="form-group col-6">
+                  {{ search_form.Similar_IncidentId.label }}
+                  {{ search_form.Similar_IncidentId(class_="form-control", size=32) }}
+                  </br>
+                </div>
+                <div class="form-group col-6">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     <div>
       {{ search_form.Search_submit(class_="form-control") }}
     </div>

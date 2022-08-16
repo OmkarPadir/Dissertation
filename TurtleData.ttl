@@ -132,17 +132,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 	Ir:hasImpact Ir:Discrimination;
 	Ir:Comments "freedom from arbitrary interference with privacy, freedom from attacks on honour or reputation. Biased against local indigenous people.".
 
-    Ir:AIAAIC0862 a Ir:Incident;
-	Ir:hasHeadline "Cruise driverless car pulls away from police";
-	Ir:hasIncidentYear 2022;
-	Ir:hasIncidentRegion Ir:USA;
-	Ir:applicationSector Ir:Automotive;
-	Ir:operatedBy Ir:GM_Cruise;
-	Ir:developedBy Ir:GM_Cruise;
-	Ir:hasPurpose "Automate steering, acceleration, braking";
-	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/cruise-driverless-car-pulls-away-from-police#h.prtwgqt8mncb";
-	Ir:Comments "Incident not clear enough for annotation".
-
     Ir:AIAAIC0861 a Ir:Incident;
 	Ir:hasHeadline "Malaysia AI court sentencing";
 	Ir:hasIncidentYear 2022;
@@ -158,3 +147,3653 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 	Ir:hasImpact Ir:Discrimination;
 	Ir:hasImpact Ir:DueDiligence;
 	Ir:Comments "right to due process of law and a fair hearing when facing criminal charges. Racially biased. no proper consultation training before implementing".
+
+    Ir:AIAAIC0860 a Ir:Incident;
+	Ir:hasHeadline "Bytedance content scraping";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok_Flipagram;
+	Ir:developedBy Ir:ByteDance_TikTok_Flipagram;
+	Ir:hasPurpose "Recommend content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bytedance-content-scraping#h.lx6krmofeok";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:DataProtection;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "Data Scraping without consent".
+
+    Ir:AIAAIC0859 a Ir:Incident;
+	Ir:hasHeadline "Speedcam Anywhere anti-speeding app";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Speedcam Anywhere";
+	Ir:operatedBy Ir:Speedcam_Anywhere;
+	Ir:operatedBy Ir:20s_Plenty_For_Us;
+	Ir:developedBy Ir:Speedcam_Anywhere;
+	Ir:hasPurpose "Estimate vehicle speed";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/speedcam-anywhere-anti-speeding-app";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:DueDiligence;
+	Ir:Comments "freedom from arbitrary interference with privacy".
+
+    Ir:AIAAIC0858 a Ir:Incident;
+	Ir:hasHeadline "Worldcoin 'field testing'";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Benin__Brazil__Chile__Colombia__France__Germany__Ghana__India__Indonesia__Israel__Italy__Kenya__Mexico__Netherlands__Nigeria__Norway__Portugal__South_Africa__Spain__Sudan__Turkey__Uganda__United_Kingdom__Zimbabwe;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Worldcoin";
+	Ir:operatedBy Ir:Tools_for_Humanity_Worldcoin;
+	Ir:developedBy Ir:Tools_for_Humanity_Worldcoin;
+	Ir:hasPurpose "Train algorithms";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/worldcoin-field-testing#h.2q074cyh1v8q";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:DataProtection;
+	Ir:hasImpact Ir:Fairinformation;
+	Ir:hasImpact Ir:ConsumerService.
+
+    Ir:AIAAIC0857 a Ir:Incident;
+	Ir:hasHeadline "Facebook downranking system failure";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Minimise harmful content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-downranking-system-failure#h.u13e9bv7dxjn";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerhealthandSafety.
+
+    Ir:AIAAIC0856 a Ir:Incident;
+	Ir:hasHeadline "LinkedIn deepfake salespeople";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "LinkedIn algorithm";
+	Ir:operatedBy Ir:Microsoft_LinkedIn;
+	Ir:developedBy Ir:Microsoft_LinkedIn;
+	Ir:hasPurpose "Generate sales leads";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/linkedin-deepfake-salespeople#h.vgqrd09vsq96";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerService.
+
+    Ir:AIAAIC0855 a Ir:Incident;
+	Ir:hasHeadline "Airbnb user trustworthiness scoring";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:hasIncidentRegion Ir:New_Zealand;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:operatedBy Ir:Airbnb;
+	Ir:developedBy Ir:Airbnb_Trooly;
+	Ir:hasPurpose "Assess trustworthiness";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/airbnb-user-trustworthiness-scoring#h.quu0rr9khak8";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:DataProtection;
+	Ir:hasImpact Ir:ConsumerService.
+
+    Ir:AIAAIC0854 a Ir:Incident;
+	Ir:hasHeadline "Minnesota Operation Safety Net (OSN)";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:applicationSector Ir:Govt_-_security;
+	Ir:hasSystem "Minnesota Operation Safety Net (OSN)";
+	Ir:operatedBy Ir:Hennepin_County_Sheriff_s_Office;
+	Ir:operatedBy Ir:Department_of_Homeland_Security__DHS_;
+	Ir:operatedBy Ir:Federal_Bureau_of_Investigation__FBI_;
+	Ir:developedBy Ir:Department_of_Homeland_Security__DHS_;
+	Ir:developedBy Ir:AT_T_Intrepid_Networks;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasPurpose "Increase safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/minnesota-operation-safety-net#h.qzeqv7hm18if";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights.
+
+    Ir:AIAAIC0853 a Ir:Incident;
+	Ir:hasHeadline "GIS employment background checks";
+	Ir:hasIncidentYear 2015;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:operatedBy Ir:General_Information_Services__GIS_;
+	Ir:operatedBy Ir:e-Background-checks_com__BGC_;
+	Ir:developedBy Ir:General_Information_Services__GIS_;
+	Ir:developedBy Ir:e-Background-checks_com__BGC_;
+	Ir:hasPurpose "Assess job applicant backgrounds";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gis-employment-background-checks#h.nzoqccocqgsq";
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:EmploymentRelationships.
+
+    Ir:AIAAIC0852 a Ir:Incident;
+	Ir:hasHeadline "Sao Paulo METRO SecureOS facial recognition";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:applicationSector Ir:Govt_-_transport;
+	Ir:hasSystem "ISS SecureOS";
+	Ir:operatedBy Ir:Companhia_do_Metropolitano_de_São_Paulo;
+	Ir:developedBy Ir:Intelligent_Security_Systems__ISS_;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasPurpose "Increase safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/sao-paulo-metro-secureos-facial-recognition#h.vyn9gyy6t46p";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "freedom from arbitrary interference with privacy".
+
+    Ir:AIAAIC0851 a Ir:Incident;
+	Ir:hasHeadline "Tesla FSD beta test car hits bollard, driver fired";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Full Self-Driving (FSD)";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-fsd-beta-test-car-hits-bollard-driver-fired#h.r2jkqdx5bnuo";
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:EmploymentRelationships.
+
+    Ir:AIAAIC0850 a Ir:Incident;
+	Ir:hasHeadline "Ukraine war Clearview AI facial recognition";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:hasSystem "Clearview AI";
+	Ir:operatedBy Ir:Ministry_of_Defenсe_of_Ukraine;
+	Ir:developedBy Ir:Clearview_AI;
+	Ir:hasPurpose "Identify combatants";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ukraine-war-clearview-ai-facial-recognition#h.xur3g06uu0a5";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:DueDiligence;
+	Ir:Comments "Privacy. Issues if misidentified.".
+
+    Ir:AIAAIC0849 a Ir:Incident;
+	Ir:hasHeadline "TikTok Russia/Ukraine war disinformation";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Recommend content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-russiaukraine-war-disinformation#h.mlwqhvgbrqly";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:Fairinformation;
+	Ir:Comments "Misinformation".
+
+    Ir:AIAAIC0848 a Ir:Incident;
+	Ir:hasHeadline "VioGén domestic abuse system";
+	Ir:hasIncidentYear 2017;
+	Ir:hasIncidentRegion Ir:Spain;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "VioGén";
+	Ir:operatedBy Ir:Ministry_of_the_Interior;
+	Ir:operatedBy Ir:Spanish_National_Police;
+	Ir:developedBy Ir:Ministry_of_the_Interior;
+	Ir:developedBy Ir:SAS;
+	Ir:hasPurpose "Assess domestic violence risk";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/viog%C3%A9n-gender-violence-system#h.hh0s4mc5o6ec";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:DueDiligence;
+	Ir:hasImpact Ir:Educationandawareness;
+	Ir:Comments "Transparency and accountability not considered properly in annotation".
+
+    Ir:AIAAIC0847 a Ir:Incident;
+	Ir:hasHeadline "Russian KUB-BLA 'suicide drone' attacks";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:hasSystem "KUB-BLA";
+	Ir:operatedBy Ir:Russian_Aerospace_Forces;
+	Ir:developedBy Ir:Rostec_JSC_Kalashnikov_Concern_ZALA_Aero;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/russian-kub-bla-suicide-drone-attacks#h.tk1ntt8sq99t";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:Complicity;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "Right to life".
+
+    Ir:AIAAIC0846 a Ir:Incident;
+	Ir:hasHeadline "Estee Lauder employee performance assessments";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Cosmetics;
+	Ir:hasSystem "HireVue";
+	Ir:operatedBy Ir:Estee_Lauder_MAC;
+	Ir:developedBy Ir:HireVue;
+	Ir:hasPurpose "Assess employee performance";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/estee-lauder-employee-performance-assessments#h.c37krqemmt9l";
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:EmploymentRelationships.
+
+    Ir:AIAAIC0845 a Ir:Incident;
+	Ir:hasHeadline "President Zelenskyy deepfake surrender";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Anonymous_pseudonymous;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Confuse/destabilise";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/president-zelenskyy-deepfake-surrender#h.mssz5p57ug8u";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:Fairinformation.
+
+    Ir:AIAAIC0844 a Ir:Incident;
+	Ir:hasHeadline "Weight Watchers child data harvesting";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Consumer_goods;
+	Ir:hasSystem "Kurbo";
+	Ir:operatedBy Ir:WW_International_Weight_Watchers_Kurbo;
+	Ir:developedBy Ir:WW_International_Weight_Watchers_Kurbo;
+	Ir:hasPurpose "Manage eating habits";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/weight-watchers-child-data-harvesting#h.revl4r1d5uzr";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:DataProtection.
+
+    Ir:AIAAIC0843 a Ir:Incident;
+	Ir:hasHeadline "Everalbum facial recognition default tagging";
+	Ir:hasIncidentYear 2017;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Everalbum Friends";
+	Ir:operatedBy Ir:Paravision_Everalbum;
+	Ir:developedBy Ir:Paravision_Everalbum;
+	Ir:hasPurpose "Train facial recognition system";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/everalbum-facial-recognition-default-tagging#h.65wmajo5m3dq";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "Privacy".
+
+    Ir:AIAAIC0842 a Ir:Incident;
+	Ir:hasHeadline "Russian Ukraine disinformation bot farms";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Anonymous_pseudonymous;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Confuse/destabilise";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/russia-disinformation-bot-farms#h.100g6413cg25";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "May not be accuratefor politically driven misinformation".
+
+    Ir:AIAAIC0841 a Ir:Incident;
+	Ir:hasHeadline "Coupang Eats star rating system";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Coupang Eats star rating system";
+	Ir:operatedBy Ir:Coupang_Coupang_Eats;
+	Ir:developedBy Ir:Coupang_Coupang_Eats;
+	Ir:hasPurpose "Rate products/services";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/coupang-eats-star-ratings-system#h.dig493gfyuag";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:HealthandSafety;
+	Ir:hasImpact Ir:WorkingConditions;
+	Ir:Comments "Right to life, Safe Working Conditions".
+
+    Ir:AIAAIC0840 a Ir:Incident;
+	Ir:hasHeadline "VRChat virtual strip clubs, child grooming";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "VRChat Safety and Trust System";
+	Ir:operatedBy Ir:VRChat;
+	Ir:operatedBy Ir:Meta_Quest;
+	Ir:operatedBy Ir:Microsoft;
+	Ir:developedBy Ir:VRChat;
+	Ir:hasPurpose "Manage system safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/vrchat-virtual-strip-clubs-child-grooming#h.gjbb7v5dj1cv";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerhealthandSafety.
+
+    Ir:AIAAIC0839 a Ir:Incident;
+	Ir:hasHeadline "South Korea presidential election candidate deepfakes";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "AI Yoon Seok-Yeoul";
+	Ir:operatedBy Ir:People_Power_Party;
+	Ir:developedBy Ir:People_Power_Party;
+	Ir:developedBy Ir:DeepBrain_AI;
+	Ir:hasPurpose "Communicate with young voters";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/south-korea-presidential-election-candidate-deepfakes#h.s4bu8i9pxzhn";
+	Ir:hasStakeholder Ir:Community;
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:CommunityInvolvement;
+	Ir:hasImpact Ir:Fairinformation;
+	Ir:Comments "Use of deepfake politically, might not be suitable for future of community".
+
+    Ir:AIAAIC0838 a Ir:Incident;
+	Ir:hasHeadline "Uber UpFront Fares driver pay algorithm";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Uber UpFront Fares";
+	Ir:operatedBy Ir:Uber;
+	Ir:developedBy Ir:Uber;
+	Ir:hasPurpose "Calculate pay";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uber-upfront-fares-driver-pay-algorithm#h.bs34cgaw2uvr";
+	Ir:hasStakeholder Ir:Community;
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:WealthandIncomecreation;
+	Ir:hasImpact Ir:DueDiligence;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:hasImpact Ir:EmploymentRelationships;
+	Ir:Comments "Transparency not selsected".
+
+    Ir:AIAAIC0837 a Ir:Incident;
+	Ir:hasHeadline "Ethiopia Bayraktar TB2 drone Tigray school attack";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ethiopia;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:hasSystem "Bayraktar TB2";
+	Ir:operatedBy Ir:Ethiopian_National_Defense_Force__ENDF_;
+	Ir:developedBy Ir:Baykar_Defence;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ethiopia-bayraktar-tb2-drone-tigray-school-attack#h.9znyalodi2nq";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "Right to life. Weaponizing AI system".
+
+    Ir:AIAAIC0836 a Ir:Incident;
+	Ir:hasHeadline "Sama 'ethical AI' Facebook content moderation";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:S_Africa;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Sama_AI_Samasource;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/sama-ethical-ai-facebook-content-moderation#h.umbsew26ux7p";
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:EmploymentRelationships;
+	Ir:hasImpact Ir:WorkingConditions.
+
+    Ir:AIAAIC0835 a Ir:Incident;
+	Ir:hasHeadline "Zhihu job resignation predictions";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Sangfor Behavioral Perception System";
+	Ir:operatedBy Ir:Zhihu;
+	Ir:operatedBy Ir:Sina;
+	Ir:operatedBy Ir:China_Everbright_Bank_Shenzhen;
+	Ir:operatedBy Ir:East_China_Normal_University;
+	Ir:developedBy Ir:Sangfor_Technologies;
+	Ir:hasPurpose "Predict employee resignations";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/zhihu-job-resignation-predictions#h.mhx80sxosubm";
+	Ir:hasStakeholder Ir:Workers;
+	Ir:hasImpact Ir:EmploymentRelationships.
+
+    Ir:AIAAIC0834 a Ir:Incident;
+	Ir:hasHeadline "Ukraine Bayraktar TB2 drone attacks";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:hasSystem "Bayraktar TB2";
+	Ir:operatedBy Ir:Ministry_of_Defenсe_of_Ukraine;
+	Ir:operatedBy Ir:Ukrainian_Air_Force;
+	Ir:developedBy Ir:Baykar_Defence;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ukraine-bayraktar-tb2-drone-attacks#h.2tx3vcd67seu";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights.
+
+    Ir:AIAAIC0833 a Ir:Incident;
+	Ir:hasHeadline "Kyiv' deepfake news influence campaign";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook_Instagram;
+	Ir:operatedBy Ir:Twitter;
+	Ir:operatedBy Ir:Alphabet_Google_YouTube;
+	Ir:operatedBy Ir:Telegram;
+	Ir:operatedBy Ir:Odnoklassniki;
+	Ir:operatedBy Ir:VK;
+	Ir:developedBy Ir:Meta_Facebook_Instagram;
+	Ir:developedBy Ir:Twitter;
+	Ir:developedBy Ir:Alphabet_Google_YouTube;
+	Ir:developedBy Ir:Telegram;
+	Ir:developedBy Ir:Odnoklassniki;
+	Ir:developedBy Ir:VK;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/kyiv-deepfake-influence-campaign#h.69p9h1cow3u6";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:Fairinformation.
+
+    Ir:AIAAIC0832 a Ir:Incident;
+	Ir:hasHeadline "Roblox Condo nazi sex parties";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Roblox Condo";
+	Ir:operatedBy Ir:Roblox;
+	Ir:developedBy Ir:Roblox;
+	Ir:hasPurpose "Manage system safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/roblox-condo-nazi-sex-parties#h.2wm2y2p3dgn9";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerhealthandSafety.
+
+    Ir:AIAAIC0831 a Ir:Incident;
+	Ir:hasHeadline "Twitter Ukraine OSINT account suspensions";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Ukraine;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:hasSystem "Twitter content moderation system";
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/twitter-ukraine-osint-account-suspensions#h.x84x0ziy5ugw";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerService.
+
+    Ir:AIAAIC0830 a Ir:Incident;
+	Ir:hasHeadline "MoviePass PreShow eye tracking";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "MoviePass PreShow";
+	Ir:operatedBy Ir:MoviePass;
+	Ir:developedBy Ir:MoviePass;
+	Ir:hasPurpose "Earn virtual currency";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/moviepass-preshow-eye-tracking#h.3ym4ibyohhft";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:DataProtection.
+
+    Ir:AIAAIC0829 a Ir:Incident;
+	Ir:hasHeadline "The Book of Veles disinformation manipulation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:N_Macedonia;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Open AI GPT-2";
+	Ir:operatedBy Ir:Magnum_Photos;
+	Ir:developedBy Ir:Jonas_Bendiksen;
+	Ir:hasPurpose "Expose mis/disinformation";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/the-book-of-veles#h.8bl0ia4zsef0";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:Fairinformation.
+
+    Ir:AIAAIC0828 a Ir:Incident;
+	Ir:hasHeadline "US prison inmate Verus call monitoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_justice;
+	Ir:hasSystem "Verus";
+	Ir:operatedBy Ir:Suffolk_County_Sheriff_s_Office;
+	Ir:operatedBy Ir:Calhoun_County_Jail__Alabama;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:LEO_Technologies;
+	Ir:hasPurpose "Improve safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/verus-prison-inmate-call-monitoring#h.wxk3svtkdtgo";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:Comments "Privacy";
+	Ir:Comments "Discrimination".
+
+    Ir:AIAAIC0827 a Ir:Incident;
+	Ir:hasHeadline "Hackney Early Help Profiling System (EHPS)";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:hasSystem "Hackney Early Help Profiling System (EHPS)";
+	Ir:operatedBy Ir:Hackney_Council;
+	Ir:developedBy Ir:Xantura;
+	Ir:hasPurpose "Predict child harm";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/hackney-early-help-profiling-system#h.1tgyp1ozvpjd";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:DataProtection;
+	Ir:hasImpact Ir:EssentialServices;
+	Ir:Comments "Privacy";
+	Ir:Comments "profinling for essential services";
+	Ir:Comments "No transparency".
+
+    Ir:AIAAIC0826 a Ir:Incident;
+	Ir:hasHeadline "DWP 'General Matching Service' disability benefits fraud algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:hasSystem "DWP General Matching Service";
+	Ir:operatedBy Ir:Department_for_Work_and_Pensions__DWP_;
+	Ir:developedBy Ir:Department_for_Work_and_Pensions__DWP_;
+	Ir:hasPurpose "Identify fraud";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/dwp-disability-benefits-fraud-algorithm#h.471ud6hdetka";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:EconomicSocialCulturalRights;
+	Ir:hasImpact Ir:Discrimination;
+	Ir:Comments "Transparency not captured".
+
+    Ir:AIAAIC0825 a Ir:Incident;
+	Ir:hasHeadline "Amazon chemical food preservative suicides";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:hasSystem "Amazon 19";
+	Ir:hasSystem "Amazon A10";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Recommend products";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-chemical-food-preservative-suicides#h.417bcajsgpul";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerhealthandSafety.
+
+    Ir:AIAAIC0824 a Ir:Incident;
+	Ir:hasHeadline "Tinder Plus age, sexual orientation discrimination";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:New_Zealand;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:hasIncidentRegion Ir:Netherlands;
+	Ir:hasIncidentRegion Ir:South_Korea;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Tinder Plus";
+	Ir:operatedBy Ir:Match_Group_Tinder;
+	Ir:developedBy Ir:Match_Group_Tinder;
+	Ir:hasPurpose "Determine pricing";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tinder-age-sexual-orientation-discrimination#h.35j90mgien1f";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:Discrimination.
+
+    Ir:AIAAIC0823 a Ir:Incident;
+	Ir:hasHeadline "Honolulu homeless robot temperature tests";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "Boston Dynamics Spot";
+	Ir:operatedBy Ir:Honolulu_Police_Department;
+	Ir:developedBy Ir:Hyundai_Motor_Group_Boston_Dynamics;
+	Ir:hasPurpose "Strengthen law enforcement";
+	Ir:hasPurpose "Detect body temperature";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/honolulu-homeless-robot-temperature-tests#h.x0ysnd6lg5ta";
+	Ir:hasStakeholder Ir:HumanRights;
+	Ir:hasImpact Ir:CivilandPoliticalRights;
+	Ir:Comments "Attacks on honour and reputation".
+
+    Ir:AIAAIC0822 a Ir:Incident;
+	Ir:hasHeadline "Tesla phantom braking";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-phantom-braking#h.dtwof0f6lk30";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:ConsumerService;
+	Ir:hasImpact Ir:ConsumerhealthandSafety;
+	Ir:Comments "Accountability for failure of AI system".
+
+    Ir:AIAAIC0821 a Ir:Incident;
+	Ir:hasHeadline "Crisis Text Line commercial data sharing";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:NGO_non-profit_social_enterprise;
+	Ir:hasSystem "Crisis Text Line";
+	Ir:operatedBy Ir:Crisis_Text_Line__CLT_;
+	Ir:developedBy Ir:Crisis_Text_Line__CLT_;
+	Ir:hasPurpose "Provide mental health support";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/crisis-text-line-data-sharing#h.hkuoz7n6j6bw";
+	Ir:hasStakeholder Ir:Consumers;
+	Ir:hasImpact Ir:DataProtection.
+
+    Ir:AIAAIC0820 a Ir:Incident;
+	Ir:hasHeadline "Lauren Book deepfake extortion";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Jeremy_Kampervee;
+	Ir:developedBy Ir:Jeremy_Kampervee;
+	Ir:hasPurpose "Extortion";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/lauren-book-deepfake-extortion#h.68970wo3jo0j".
+
+    Ir:AIAAIC0819 a Ir:Incident;
+	Ir:hasHeadline "Houthi Abu Dhabi oil facility attack";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:UAE_-_Abu_Dhabi;
+	Ir:hasIncidentRegion Ir:Yemen;
+	Ir:applicationSector Ir:Govt_-_energy;
+	Ir:applicationSector Ir:Govt_-_transport;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Ansar_Allah;
+	Ir:developedBy Ir:Ansar_Allah;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/houthi-abu-dhabi-drone-attack#h.zaeax3vdzxwm".
+
+    Ir:AIAAIC0818 a Ir:Incident;
+	Ir:hasHeadline "Replika app chatbot abuse";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Replika";
+	Ir:operatedBy Ir:Luka_Inc_Replika;
+	Ir:developedBy Ir:Luka_Inc_Replika;
+	Ir:hasPurpose "Provide companionship";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/replika-app-chatbot-abuse#h.i3rxx6etd0a5".
+
+    Ir:AIAAIC0817 a Ir:Incident;
+	Ir:hasHeadline "Voiceverse NFT voice theft";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Voiceverse";
+	Ir:operatedBy Ir:Voiceverse;
+	Ir:developedBy Ir:Voiceverse;
+	Ir:hasPurpose "Sell voice rights";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/voiceverse-nft-voice-theft#h.16lxb8xj50dn".
+
+    Ir:AIAAIC0816 a Ir:Incident;
+	Ir:hasHeadline "Tesla FSD 'Assertive' mode rolling stops";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Full Self-Driving (FSD)";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Control car behaviour";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-fsd-assertive-mode#h.udu0f8s3f987".
+
+    Ir:AIAAIC0815 a Ir:Incident;
+	Ir:hasHeadline "Mainz police COVID-19 Luca app abuse";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:Germany;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "Luca";
+	Ir:operatedBy Ir:Culture4life;
+	Ir:operatedBy Ir:Polizeipräsidium_Mainz;
+	Ir:developedBy Ir:Culture4life;
+	Ir:hasPurpose "Track COVID-19";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/mainz-police-luca-covid-19-abuse#h.9h4uy32gcssj".
+
+    Ir:AIAAIC0814 a Ir:Incident;
+	Ir:hasHeadline "Tek Fog political manipulation, harassment";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Tek Fog";
+	Ir:operatedBy Ir:Bharatiya_Janata_Party;
+	Ir:operatedBy Ir:Mohalla_Tech_ShareChat;
+	Ir:operatedBy Ir:Persistent_Systems;
+	Ir:developedBy Ir:Bharatiya_Janata_Party;
+	Ir:developedBy Ir:Persistent_Systems;
+	Ir:hasPurpose "Manipulate public opinion";
+	Ir:hasPurpose "Harass opponents";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tek-fog-political-manipulation#h.56s4ly9hjfio".
+
+    Ir:AIAAIC0813 a Ir:Incident;
+	Ir:hasHeadline "Bulli Bai Muslim women auction";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Anonymous_pseudonymous;
+	Ir:operatedBy Ir:Microsoft_Github;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bulli-bai-muslim-women-auction#h.yao259s0vifp".
+
+    Ir:AIAAIC0812 a Ir:Incident;
+	Ir:hasHeadline "Hyderabad police facial recognition";
+	Ir:hasIncidentYear 2022;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "NEC NeoFace Watch";
+	Ir:operatedBy Ir:Hyderabad_City_Police;
+	Ir:developedBy Ir:NEC_Technologies_India;
+	Ir:hasPurpose "Reduce crime";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/hyderabad-police-facial-recognition#h.gwjjey7zqcr4".
+
+    Ir:AIAAIC0811 a Ir:Incident;
+	Ir:hasHeadline "Tesla Paris fatal crash";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:France;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-paris-fatal-crash#h.18lxatx9cf7o";
+	Ir:hasStakeholder Ir:HumanRights.
+
+    Ir:AIAAIC0810 a Ir:Incident;
+	Ir:hasHeadline "Shanghai AI prosecutor";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Govt_-_justice;
+	Ir:hasSystem "System 206";
+	Ir:developedBy Ir:Shanghai_Pudong_People_s_Procuratorate;
+	Ir:developedBy Ir:Chinese_Academy_of_Sciences;
+	Ir:hasPurpose "Determine criminal guilt";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/shanghai-ai-prosecutor#h.so1msei2pelv".
+
+    Ir:AIAAIC0809 a Ir:Incident;
+	Ir:hasHeadline "Amazon Alexa penny challenge";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Amazon Alexa";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Interact with users";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-alexa-live-plug-challenge#h.9ljkeqse0hhr".
+
+    Ir:AIAAIC0808 a Ir:Incident;
+	Ir:hasHeadline "Pony.ai driverless test crash";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Pony.ai ADS";
+	Ir:operatedBy Ir:Pony_ai;
+	Ir:developedBy Ir:Pony_ai;
+	Ir:developedBy Ir:Luminar;
+	Ir:developedBy Ir:NVIDIA;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/pony-ai-driverless-test-crash#h.uodn933gwenv".
+
+    Ir:AIAAIC0807 a Ir:Incident;
+	Ir:hasHeadline "Bucheon COVID-19 facial recognition tracking";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Govt_-_health;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:City_of_Bucheon;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Track COVID-19 infected individuals";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bucheon-covid-19-facial-recognition-tracking#h.j73a79xay7hn".
+
+    Ir:AIAAIC0806 a Ir:Incident;
+	Ir:hasHeadline "Horizon Worlds beta virtual groping";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Horizon Worlds Safe Zone";
+	Ir:operatedBy Ir:Meta_Quest;
+	Ir:developedBy Ir:Meta_Quest;
+	Ir:hasPurpose "Manage system safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/horizon-worlds-virtual-groping#h.lppqm12yrza".
+
+    Ir:AIAAIC0805 a Ir:Incident;
+	Ir:hasHeadline "XPeng customer facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Xpeng_Motors;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Understand customers";
+	Ir:hasPurpose "Improve service";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/xpeng-customer-facial-recognition#h.8f2oxoq7xmf9".
+
+    Ir:AIAAIC0804 a Ir:Incident;
+	Ir:hasHeadline "Facebook political ads misidentification";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Authorise political advertisingn";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-political-ads-misidentification#h.25kpg8yggco".
+
+    Ir:AIAAIC0803 a Ir:Incident;
+	Ir:hasHeadline "Trelleborg welfare management automation";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:Sweden;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:hasSystem "UiPath Robot";
+	Ir:operatedBy Ir:Trelleborg_Municipality;
+	Ir:developedBy Ir:UiPath;
+	Ir:developedBy Ir:Valcon_Consultants;
+	Ir:hasPurpose "Optimise welfare payments";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/trelleborg-welfare-management-automation#h.ymblb1hv1s87".
+
+    Ir:AIAAIC0802 a Ir:Incident;
+	Ir:hasHeadline "Life360 location data sharing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Life360";
+	Ir:operatedBy Ir:Life360;
+	Ir:operatedBy Ir:X-Mode;
+	Ir:operatedBy Ir:Cuebiq;
+	Ir:operatedBy Ir:Allstate_Arity;
+	Ir:operatedBy Ir:Safegraph;
+	Ir:developedBy Ir:Life360;
+	Ir:hasPurpose "Track childrens' movements";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/life360-location-data-sharing#h.r2fh8junn58o".
+
+    Ir:AIAAIC0801 a Ir:Incident;
+	Ir:hasHeadline "Denny's robot server";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:hasSystem "Bear Robotics Servi";
+	Ir:operatedBy Ir:Denny_s;
+	Ir:developedBy Ir:Bear_Robotics;
+	Ir:developedBy Ir:Softbank;
+	Ir:hasPurpose "Serve food";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/dennys-robot-server#h.a5e6rvad7jcz".
+
+    Ir:AIAAIC0800 a Ir:Incident;
+	Ir:hasHeadline "Henan foreign journalist, student surveillance";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:applicationSector Ir:Govt_-_security;
+	Ir:hasSystem "Huawei Cloud";
+	Ir:hasSystem "Huawei FusionInsight";
+	Ir:operatedBy Ir:Henan_Public_Security_Department;
+	Ir:developedBy Ir:Neusoft;
+	Ir:developedBy Ir:Huawei;
+	Ir:hasPurpose "Identify & track 'suspicious people'";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/henan-foreign-journalist-student-surveillance#h.l4ecojg1yjd0".
+
+    Ir:AIAAIC0799 a Ir:Incident;
+	Ir:hasHeadline "Amazon DSP Ans Rana crash liability";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Amazon;
+	Ir:operatedBy Ir:Harper_Logistics;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Manage package delivery";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-dsp-ans-rana-crash-liability#h.y8ned2a882z2".
+
+    Ir:AIAAIC0798 a Ir:Incident;
+	Ir:hasHeadline "Zillow Offers iBuying algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Real_estate;
+	Ir:hasSystem "Zestimate";
+	Ir:operatedBy Ir:Zillow;
+	Ir:developedBy Ir:Zillow;
+	Ir:hasPurpose "Estimate & predict real estate value";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/zillow-offers-ibuying-zestimate-algorithm#h.e0j0x2s9fnsd".
+
+    Ir:AIAAIC0797 a Ir:Incident;
+	Ir:hasHeadline "Tesla Model Y FSD Beta crash";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Full Self-Driving (FSD)";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-model-y-fsd-beta-crash#h.kp8gevtedi2i".
+
+    Ir:AIAAIC0796 a Ir:Incident;
+	Ir:hasHeadline "FACIL’iti automated accessibility";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:France;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "FACIL’iti";
+	Ir:operatedBy Ir:Julie_Moynat;
+	Ir:operatedBy Ir:Koena;
+	Ir:developedBy Ir:FACIL_iti;
+	Ir:hasPurpose "Improve website accessibility";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/faciliti-automated-accessibility#h.vbqlw29u54es".
+
+    Ir:AIAAIC0795 a Ir:Incident;
+	Ir:hasHeadline "AccessiBe automated accessibility";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "accessiBe";
+	Ir:operatedBy Ir:Eyebobs__Masterbuilt_Manufacturing;
+	Ir:developedBy Ir:accessiBe;
+	Ir:hasPurpose "Improve website accessibility";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/accessibe-automated-accessibility#h.w9eo4g3b6tiz".
+
+    Ir:AIAAIC0794 a Ir:Incident;
+	Ir:hasHeadline "Hebron Palestinian facial recognition surveillance";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:hasSystem "Blue Wolf";
+	Ir:operatedBy Ir:Israel_Defense_Forces__IDF_;
+	Ir:hasPurpose "Identify Palestinians";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/hebron-palestinian-facial-recognition-surveillance#h.7ckmyuf5mhp5".
+
+    Ir:AIAAIC0793 a Ir:Incident;
+	Ir:hasHeadline "S Korea immigration facial recognition data sharing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Govt_-_immigration;
+	Ir:hasSystem "AI Identification and Tracking System";
+	Ir:operatedBy Ir:Ministry_of_Justice__MOJ_;
+	Ir:operatedBy Ir:Ministry_of_Science_and_ICT__MSIT_;
+	Ir:operatedBy Ir:Incheon_International_Airport;
+	Ir:operatedBy Ir:;
+	Ir:developedBy Ir:CUbox;
+	Ir:hasPurpose "Identify travellers";
+	Ir:hasPurpose "Predict security breaches";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/s-korea-immigration-facial-recognition-sharing#h.x9c3ffj9xolg".
+
+    Ir:AIAAIC0792 a Ir:Incident;
+	Ir:hasHeadline "Tesla FSD Beta software glitch, recall";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Full Self-Driving (FSD)";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-fsd-glitchrecall#h.baes5fu2xj35".
+
+    Ir:AIAAIC0791 a Ir:Incident;
+	Ir:hasHeadline "Wellington International Airport facial recognition pilot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:New_Zealand;
+	Ir:applicationSector Ir:Govt_-_immigration;
+	Ir:hasSystem "SmartGate";
+	Ir:operatedBy Ir:Wellington_International_Airport;
+	Ir:developedBy Ir:Aviation_Security__Avsec_;
+	Ir:hasPurpose "Assess security queues";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/wellington-international-airport-facial-recognition#h.rg6c4c143t0i".
+
+    Ir:AIAAIC0790 a Ir:Incident;
+	Ir:hasHeadline "Adobe Sensei Project Morpheus";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Adobe Morpheus";
+	Ir:operatedBy Ir:Adobe;
+	Ir:developedBy Ir:Adobe;
+	Ir:hasPurpose "Manipulate video";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/adobe-sensei-project-morpheus#h.hsg4l4dw6rx".
+
+    Ir:AIAAIC0789 a Ir:Incident;
+	Ir:hasHeadline "SanTO robot Catholic priest";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Poland;
+	Ir:applicationSector Ir:Religion;
+	Ir:hasSystem "SanTo";
+	Ir:operatedBy Ir:St__John_Paul_II_Church__Warsaw;
+	Ir:developedBy Ir:Gabriele_Trovato;
+	Ir:hasPurpose "Teach prayer, provide advice";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/santo-robot-catholic-priest#h.vm8lowoe71bh".
+
+    Ir:AIAAIC0788 a Ir:Incident;
+	Ir:hasHeadline "São Geraldo Magela drone delivery";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:applicationSector Ir:Religion;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:São_Geraldo_Magela_church__Sorocaba;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Deliver Eucharist";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/s%C3%A3o-geraldo-magela-drone-delivery#h.a2eun62gyfu".
+
+    Ir:AIAAIC0787 a Ir:Incident;
+	Ir:hasHeadline "India citizenship law protest surveillance";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "Innefu Labs AI Vision";
+	Ir:hasSystem "Staqu Police Artificial Intelligence System";
+	Ir:operatedBy Ir:Delhi_Police__Uttar_Pradesh_Police;
+	Ir:developedBy Ir:Innefu_Labs__Staqu;
+	Ir:hasPurpose "Identify criminals, protestors";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/india-citizenship-law-protest-surveillance#h.3lbfoitgkr6t".
+
+    Ir:AIAAIC0786 a Ir:Incident;
+	Ir:hasHeadline "Huq GPS location data sharing/sales";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Huq_Industries;
+	Ir:developedBy Ir:Huq_Industries;
+	Ir:developedBy Ir:Kaibits_Software;
+	Ir:developedBy Ir:AppSourceHub;
+	Ir:hasPurpose "Track user location";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/huq-gps-location-data-sharing#h.o71aw3yt8y0z".
+
+    Ir:AIAAIC0785 a Ir:Incident;
+	Ir:hasHeadline "Tamoco location data sharing/sales";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Norway__UK;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Tamoco;
+	Ir:developedBy Ir:Meituan;
+	Ir:developedBy Ir:Apple;
+	Ir:hasPurpose "Assess & enhance location data";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tamoco-location-data-sharing#h.xssfeb5ejhfy".
+
+    Ir:AIAAIC0784 a Ir:Incident;
+	Ir:hasHeadline "Meituan location tracking";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Meituan_Dazhong;
+	Ir:developedBy Ir:Meituan_Dazhong;
+	Ir:hasPurpose "Track user location";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/meituan-location-tracking#h.bjawatsroe9v".
+
+    Ir:AIAAIC0783 a Ir:Incident;
+	Ir:hasHeadline "Facebook Poland 'social civil war'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Poland;
+	Ir:applicationSector Ir:Politics;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Drive engagement";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-poland-social-civil-war#h.rnjasr69z7xi".
+
+    Ir:AIAAIC0782 a Ir:Incident;
+	Ir:hasHeadline "Facebook 'Meaningful Social Interactions' algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Meaningful Social Interactions (MSI) algorithm";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Increase engagement, revenue";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-meaningful-social-interactions-algorithm#h.ay38g3lpu0mq".
+
+    Ir:AIAAIC0781 a Ir:Incident;
+	Ir:hasHeadline "Twitter right-wing bias";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Canada;
+	Ir:hasIncidentRegion Ir:France;
+	Ir:hasIncidentRegion Ir:Germany;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:hasIncidentRegion Ir:Spain;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Twitter Timeline algorithm";
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Recommend content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/twitter-right-wing-bias#h.az37bh8n9xxq".
+
+    Ir:AIAAIC0780 a Ir:Incident;
+	Ir:hasHeadline "The FaceTag";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "The FaceTag";
+	Ir:operatedBy Ir:Yuen_Ler_Chow;
+	Ir:developedBy Ir:Yuen_Ler_Chow;
+	Ir:hasPurpose "Scan human faces";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/the-facetag#h.yzk2yigg047p".
+
+    Ir:AIAAIC0779 a Ir:Incident;
+	Ir:hasHeadline "Gorillas 'Project Ace' rider work schedule automation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Germany;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Gorillas Project Ace";
+	Ir:operatedBy Ir:Gorillas;
+	Ir:developedBy Ir:Gorillas;
+	Ir:hasPurpose "Automate work scheduling";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gorillas-rider-work-schedule-automation#h.aud0j4my22z2".
+
+    Ir:AIAAIC0778 a Ir:Incident;
+	Ir:hasHeadline "Delphi moral judgements";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:NGO_non-profit_social_enterprise;
+	Ir:hasSystem "Ask Delphi";
+	Ir:operatedBy Ir:Allen_Institute_for_AI;
+	Ir:developedBy Ir:Allen_Institute_for_AI;
+	Ir:hasPurpose "Answer ethical dilemmas";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/delphi-moral-judgements#h.d5ja8cm9s67n".
+
+    Ir:AIAAIC0777 a Ir:Incident;
+	Ir:hasHeadline "BOSCO electricity subsidy assessment";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Spain;
+	Ir:applicationSector Ir:Govt_-_energy;
+	Ir:hasSystem "BOSCO";
+	Ir:operatedBy Ir:Spanish_Ministry_for_Green_Energy_Transition;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Assess electricity subsidy eligibility";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bosco-electricity-subsidy-assessment#h.10xwzlzfjzqo".
+
+    Ir:AIAAIC0776 a Ir:Incident;
+	Ir:hasHeadline "Amazon India own brand search engine rigging";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Amazon A9";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Rank content/search results";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-india-search-rigging#h.wl45tqye2juw".
+
+    Ir:AIAAIC0775 a Ir:Incident;
+	Ir:hasHeadline "USD 35m AI voice cloning heist";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:UAE_Dubai;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:hasSystem "Unclear/unknown";
+	Ir:operatedBy Ir:Anonymous_pseudonymous;
+	Ir:developedBy Ir:Anonymous_pseudonymous;
+	Ir:hasPurpose "Defraud";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/usd-35m-voice-cloning-heist#h.9u12u1mgyah".
+
+    Ir:AIAAIC0774 a Ir:Incident;
+	Ir:hasHeadline "NHGSFP school meal fingerprint biometrics";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Nigeria;
+	Ir:applicationSector Ir:Education;
+	Ir:hasSystem "HID Global DP4500";
+	Ir:operatedBy Ir:Ministry_of_Humanitarian_Affairs__Disaster_Management_and_Social_Development;
+	Ir:developedBy Ir:HID_Global;
+	Ir:developedBy Ir:Plovtech;
+	Ir:hasPurpose "Verify identity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/nhgsfp-school-meal-fingerprint-biometrics#h.s7g44isopl4y".
+
+    Ir:AIAAIC0773 a Ir:Incident;
+	Ir:hasHeadline "Gdansk Primary School No. 2 meal payment verification";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Poland;
+	Ir:applicationSector Ir:Education;
+	Ir:operatedBy Ir:Gdansk_Primary_School_No__2;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Verify meal payments";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gdansk-primary-school-no-2-meal-payment-verification#h.p5bnmssev1ab".
+
+    Ir:AIAAIC0772 a Ir:Incident;
+	Ir:hasHeadline "De-pixelated porn deepfake uncensoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "TecoGAN";
+	Ir:operatedBy Ir:Masayuki_Nakamoto;
+	Ir:developedBy Ir:Masayuki_Nakamoto;
+	Ir:hasPurpose "Create entertainment";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/de-pixelated-porn-deepfake-uncensoring#h.amjkiguqnfy".
+
+    Ir:AIAAIC0771 a Ir:Incident;
+	Ir:hasHeadline "Xiao Yu deepfake pornography";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Taiwan;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Chu_Yu-chen___Xiao_Yu__;
+	Ir:developedBy Ir:Chu_Yu-chen___Xiao_Yu__;
+	Ir:hasPurpose "Create entertainment";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/xiao-yu-deepfake-pornography#h.5ay4l1c4x695".
+
+    Ir:AIAAIC0770 a Ir:Incident;
+	Ir:hasHeadline "Moscow Metro Face Pay facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Govt_-_transport;
+	Ir:hasSystem "Face Pay";
+	Ir:operatedBy Ir:Moscow_Metro;
+	Ir:developedBy Ir:Moscow_Metro;
+	Ir:developedBy Ir:VTB_Group;
+	Ir:developedBy Ir:VisionLabs;
+	Ir:developedBy Ir:NtechLabs;
+	Ir:developedBy Ir:Tevian;
+	Ir:hasPurpose "Validate payments";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/moscow-metro-face-pay-facial-recognition#h.kmtqzoncnnfj".
+
+    Ir:AIAAIC0769 a Ir:Incident;
+	Ir:hasHeadline "North Ayrshire school meal payment verification";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Education;
+	Ir:hasSystem "CRB Cunninghams Fusion";
+	Ir:operatedBy Ir:North_Ayrshire_Council;
+	Ir:developedBy Ir:CRB_Cunninghams;
+	Ir:hasPurpose "Verify meal payments";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/north-ayrshire-school-meal-payment-verification#h.d7y2r4ab70cz".
+
+    Ir:AIAAIC0768 a Ir:Incident;
+	Ir:hasHeadline "Amazon US own brand search engine rigging";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Amazon A9";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Rank content/search results";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-us-own-brand-search-engine-rigging#h.sm83ejo4fb9n".
+
+    Ir:AIAAIC0767 a Ir:Incident;
+	Ir:hasHeadline "Wendy's voice recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:hasSystem "Google Cloud AI";
+	Ir:operatedBy Ir:Wendy_s;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Accelerate sales";
+	Ir:hasPurpose "Identify and personalise orders";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/wendys-voice-recognition#h.5ggt4r59fwzd".
+
+    Ir:AIAAIC0766 a Ir:Incident;
+	Ir:hasHeadline "Amazon Ring video doorbell neighbour privacy invasion";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Amazon Ring";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-ring-video-doorbell-neighbour-privacy-invasion#h.uk6tofmcdr1s".
+
+    Ir:AIAAIC0765 a Ir:Incident;
+	Ir:hasHeadline "Waymo cars get stuck in cul-de-sac";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Waymo Driver";
+	Ir:operatedBy Ir:Alphabet_Waymo;
+	Ir:developedBy Ir:Alphabet_Waymo;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/waymo-cars-get-stuck-in-cul-de-sac#h.267aizawc7ih".
+
+    Ir:AIAAIC0764 a Ir:Incident;
+	Ir:hasHeadline "Gaggle student behavioural monitoring";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Education;
+	Ir:hasSystem "Gaggle Safety Management";
+	Ir:operatedBy Ir:Minneapolis_High_Schools;
+	Ir:operatedBy Ir:Williamson_County_School_District;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:Gaggle;
+	Ir:hasPurpose "Monitor student behaviour";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gaggle-student-behavioural-monitoring#h.8ch97c7l425u".
+
+    Ir:AIAAIC0763 a Ir:Incident;
+	Ir:hasHeadline "Vision 60/SPUR quadrupedal war robot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Aerospace_defence;
+	Ir:hasSystem "Ghost Robotics Vision 60";
+	Ir:operatedBy Ir:Ghost_Robotics;
+	Ir:developedBy Ir:Ghost_Robotics;
+	Ir:developedBy Ir:Sword_International;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/vision-60spur-quadrupedal-war-robot#h.d476u1lz8m5e".
+
+    Ir:AIAAIC0762 a Ir:Incident;
+	Ir:hasHeadline "LAION-400M dataset";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Germany;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:hasSystem "LAION-400M";
+	Ir:developedBy Ir:LAION;
+	Ir:developedBy Ir:Jenia_Jitsev;
+	Ir:developedBy Ir:Richard_Vencu;
+	Ir:developedBy Ir:Christoph_Schuhumann;
+	Ir:hasPurpose "Improve large language training models";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/laion-400m-dataset#h.7vopxt6tvs35".
+
+    Ir:AIAAIC0761 a Ir:Incident;
+	Ir:hasHeadline "China taxation department ID system hack";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Govt_-_finance;
+	Ir:operatedBy Ir:State_Taxation_Administration;
+	Ir:developedBy Ir:State_Taxation_Administration;
+	Ir:hasPurpose "Verify identity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/china-taxation-department-id-system-hack#h.amwh3kyqsgn1".
+
+    Ir:AIAAIC0760 a Ir:Incident;
+	Ir:hasHeadline "Facebook Marketplace Amazon rainforest sales";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Sell products/services, advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-marketplace-amazon-rainforest-sales#h.hvvv8es0um5s".
+
+    Ir:AIAAIC0759 a Ir:Incident;
+	Ir:hasHeadline "Google Health diabetic retinopathy diagnosis";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Thailand;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Ministry_of_Public_Health;
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Identify diabetic retinopathy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-health-diabetic-retinopathy-diagnosis#h.r0ryvdjx0pxp".
+
+    Ir:AIAAIC0758 a Ir:Incident;
+	Ir:hasHeadline "NarxCare drug addition risk assessment";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:hasSystem "NarxCare";
+	Ir:operatedBy Ir:US_Department_of_Justice;
+	Ir:operatedBy Ir:Rite_Aid;
+	Ir:operatedBy Ir:Walmart;
+	Ir:operatedBy Ir:Sam_s_Club;
+	Ir:developedBy Ir:Appriss;
+	Ir:hasPurpose "Assess and predict drug abuse";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/narxcare-drug-addition-risk-assessment#h.rc3zh74jw0tj".
+
+    Ir:AIAAIC0757 a Ir:Incident;
+	Ir:hasHeadline "Google serial killer misidentification";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Switzerland;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Google Knowledge Graph";
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Enhance search engine results";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-misidentifies-engineer-as-serial-killer#h.2l8mpi26f20b".
+
+    Ir:AIAAIC0756 a Ir:Incident;
+	Ir:hasHeadline "Uber Real-Time ID Check race bias";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Uber Real-Time ID Check";
+	Ir:operatedBy Ir:Uber;
+	Ir:developedBy Ir:Microsoft;
+	Ir:hasPurpose "Verify identity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uber-real-time-id-check-race-bias#h.8t0z8j1p0rj0".
+
+    Ir:AIAAIC07551 a Ir:Incident;
+	Ir:hasHeadline "Facebook Marketplace gun sales";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Marketplace";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-marketplace-gun-sales#h.mwipj0vq5er5".
+
+    Ir:AIAAIC0755 a Ir:Incident;
+	Ir:hasHeadline "Met Police retrospective facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "NeoFace Watch";
+	Ir:operatedBy Ir:Metropolitan_Police_Service__MPS_;
+	Ir:developedBy Ir:NEC_Northgate_Public_Services;
+	Ir:hasPurpose "Identify criminal suspects";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/met-police-retrospective-facial-recognition#h.6d6ls9tvgymp".
+
+    Ir:AIAAIC0754 a Ir:Incident;
+	Ir:hasHeadline "Amazon Mentor delivery driver scoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Mentor";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Solera_eDriving;
+	Ir:hasPurpose "Assess delivery driver performance";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-mentor-dsp-delivery-driver-scoring#h.9bvpubk3l0vb".
+
+    Ir:AIAAIC0753 a Ir:Incident;
+	Ir:hasHeadline "Amazon Flex delivery driver routing safety";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA__EU__UK__Australia;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Amazon Flex";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Manage package delivery";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-flex-delivery-driver-routing-safety#h.mhkhxd1nvybb".
+
+    Ir:AIAAIC0752 a Ir:Incident;
+	Ir:hasHeadline "Apple iPhone depression detection study";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:developedBy Ir:Apple;
+	Ir:developedBy Ir:UCLA;
+	Ir:developedBy Ir:Biogen;
+	Ir:hasPurpose "Detect anxiety, depression";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/apple-iphone-depression-detection-study#h.ffivwtz5w8m7".
+
+    Ir:AIAAIC0751 a Ir:Incident;
+	Ir:hasHeadline "Amazon Ring Always Home Cam";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Amazon Ring Always Home Cam";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Strengthen home security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-ring-always-home-cam#h.e7163hhf0qlz".
+
+    Ir:AIAAIC0750 a Ir:Incident;
+	Ir:hasHeadline "XPeng P7 crashes into truck";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "XPILOT 2.5";
+	Ir:operatedBy Ir:Xpeng_Motors;
+	Ir:developedBy Ir:Xpeng_Motors;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/xpeng-p7-crashes-into-truck#h.b9h9e2iwhoht".
+
+    Ir:AIAAIC0749 a Ir:Incident;
+	Ir:hasHeadline "Washington DC schools teacher IMPACT value-added scoring";
+	Ir:hasIncidentYear 2011;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Education;
+	Ir:hasSystem "IMPACT";
+	Ir:operatedBy Ir:District_of_Columbia_Public_Schools;
+	Ir:developedBy Ir:Mathematica_Policy_Research;
+	Ir:hasPurpose "Assess teacher performance";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/washington-dc-schools-teacher-value-added-scoring#h.ftbjng6gj7v4".
+
+    Ir:AIAAIC0748 a Ir:Incident;
+	Ir:hasHeadline "Amazon Astro home robot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Amazon Astro";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Strengthen home security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-astro-home-robot#h.d899tv3hdg90".
+
+    Ir:AIAAIC0747 a Ir:Incident;
+	Ir:hasHeadline "Tesla Model X crashes into five police officers";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-model-x-crashes-into-five-police-officers#h.wg8480jzfkux".
+
+    Ir:AIAAIC0746 a Ir:Incident;
+	Ir:hasHeadline "Facebook Portal";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Portal";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Enable video calls";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-portal#h.yvjzrd6bmga0".
+
+    Ir:AIAAIC0745 a Ir:Incident;
+	Ir:hasHeadline "China facial image criminality inference";
+	Ir:hasIncidentYear 2016;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:developedBy Ir:Xiaolin_Wu;
+	Ir:developedBy Ir:Xi_Zhang;
+	Ir:hasPurpose "Recognise & predict criminality";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/china-facial-image-criminal-inference#h.8ut7dz4xqn7d".
+
+    Ir:AIAAIC0744 a Ir:Incident;
+	Ir:hasHeadline "JR East facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "JR East Victim Notification Service";
+	Ir:operatedBy Ir:East_Japan_Railway_Co_;
+	Ir:developedBy Ir:East_Japan_Railway_Co_;
+	Ir:hasPurpose "Identify criminals and suspects";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/jr-east-facial-recognition#h.2fpnxbx5mmfd".
+
+    Ir:AIAAIC0743 a Ir:Incident;
+	Ir:hasHeadline "Queensland high-risk domestic violence predictions";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:Queensland_Police_Service__QPS_;
+	Ir:developedBy Ir:Queensland_Police_Service__QPS_;
+	Ir:hasPurpose "Identify high-risk domestic violence offenders";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/queensland-high-risk-domestic-violence-predictions#h.c4m1izezs3hu".
+
+    Ir:AIAAIC0742 a Ir:Incident;
+	Ir:hasHeadline "Xiaomi 5G mobile communications tracking, censorship";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Lithuania;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Xiaomi;
+	Ir:developedBy Ir:Xiaomi;
+	Ir:hasPurpose "Detect & censor sensitive terms";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/xiaomi-5g-mobile-communications-tracking-censorship#h.mincl768ezw0".
+
+    Ir:AIAAIC0741 a Ir:Incident;
+	Ir:hasHeadline "Facebook Balkan troll farms";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Confuse/destabilise";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-troll-farms#h.s2ancmvxbb2i".
+
+    Ir:AIAAIC0740 a Ir:Incident;
+	Ir:hasHeadline "NHS Digital/iProov health data sharing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_health;
+	Ir:hasSystem "iProov Face Verifier";
+	Ir:operatedBy Ir:NHS_Digital;
+	Ir:developedBy Ir:iProov;
+	Ir:hasPurpose "Store facial verification data";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/nhs-digitaliproov-facial-recognition-data-collection-storage#h.e8hf6v2agf3q".
+
+    Ir:AIAAIC0739 a Ir:Incident;
+	Ir:hasHeadline "Alexei Navalny smart voting bot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Smart Voting";
+	Ir:operatedBy Ir:Apple;
+	Ir:operatedBy Ir:Alphabet_Google__Telegram;
+	Ir:developedBy Ir:FBK;
+	Ir:hasPurpose "Facilitate tactical voting";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/alexei-navalny-smart-voting-bot#h.facstuptylu5".
+
+    Ir:AIAAIC0738 a Ir:Incident;
+	Ir:hasHeadline "Facebook, Google abortion 'reversal' ads";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:hasSystem "Facebook Ads";
+	Ir:hasSystem "Google Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Sell advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-google-abortion-reversal-ads#h.u6rsb9c98s2f".
+
+    Ir:AIAAIC0737 a Ir:Incident;
+	Ir:hasHeadline "Facebook/Ray-Ban Stories smart glasses";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook__EssilorLuxottica;
+	Ir:hasPurpose "Capture photos, video";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebookray-ban-stories-smart-glasses#h.4cxg989gw8pl".
+
+    Ir:AIAAIC0736 a Ir:Incident;
+	Ir:hasHeadline "Australia COVID-19 facial recognition trials";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:NSW_Health;
+	Ir:operatedBy Ir:NSW_Police;
+	Ir:operatedBy Ir:Department_of_Health_Victoria;
+	Ir:developedBy Ir:Genvis_Pty;
+	Ir:hasPurpose "Enforce COVID-19 quarantine";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/new-south-wales-victoria-covid-19-facial-recognition-trials#h.dwk9xt3a778v".
+
+    Ir:AIAAIC0735 a Ir:Incident;
+	Ir:hasHeadline "Curtin University Uyghur, Tibetan facial recognition study";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:operatedBy Ir:Wanquan_Liu;
+	Ir:operatedBy Ir:Cunrui_Wang;
+	Ir:operatedBy Ir:Qingling_Zhan;
+	Ir:operatedBy Ir:Yu_Liu;
+	Ir:operatedBy Ir:Lixin_Miao;
+	Ir:developedBy Ir:Wanquan_Liu;
+	Ir:developedBy Ir:Cunrui_Wang;
+	Ir:developedBy Ir:Qingling_Zhan;
+	Ir:developedBy Ir:Yu_Liu;
+	Ir:developedBy Ir:Lixin_Miao;
+	Ir:hasPurpose "Identify Uyghur & Tibetan minorities";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/curtin-university-uyghur-tibetan-facial-recognition-study#h.skiic77mfqbi".
+
+    Ir:AIAAIC0734 a Ir:Incident;
+	Ir:hasHeadline "Facebook XCheck";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook XCheck";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-xcheck#h.v8etvot7o908".
+
+    Ir:AIAAIC0733 a Ir:Incident;
+	Ir:hasHeadline "Instagram teen girls mental health harms";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/instagram-teen-girls-mental-health-harms#h.8oo181xbfq9r".
+
+    Ir:AIAAIC0731 a Ir:Incident;
+	Ir:hasHeadline "DeepFaceLive";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "DeepFaceLive";
+	Ir:operatedBy Ir:DeepFaceLive;
+	Ir:developedBy Ir:Ivan_Petrov;
+	Ir:hasPurpose "Transform identity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/deepfacelive#h.ewkqrpxsgr5z".
+
+    Ir:AIAAIC0730 a Ir:Incident;
+	Ir:hasHeadline "LAPD personal social media data collection";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:hasSystem "Dataminr First Alert";
+	Ir:hasSystem "Geofeedia";
+	Ir:operatedBy Ir:Los_Angeles_Police_Department__LAPD_;
+	Ir:developedBy Ir:Dataminr;
+	Ir:developedBy Ir:Geofeedia;
+	Ir:hasPurpose "Monitor individuals";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/lapd-social-media-data-collection#h.i0ideci8in8s".
+
+    Ir:AIAAIC0729 a Ir:Incident;
+	Ir:hasHeadline "TikTok children content recommendations";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Recommend content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-recommends-adult-content-to-children#h.ubvos2jfx9yh".
+
+    Ir:AIAAIC0728 a Ir:Incident;
+	Ir:hasHeadline "NIO ES8 fatal crash";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "NIO NOP";
+	Ir:operatedBy Ir:Nio;
+	Ir:developedBy Ir:Nio;
+	Ir:developedBy Ir:Intel;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/nio-es8-fatal-crash#h.mhegje566p14".
+
+    Ir:AIAAIC0727 a Ir:Incident;
+	Ir:hasHeadline "Breast cancer AI screening inaccuracy";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Health;
+	Ir:hasPurpose "Detect breast cancer";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/breast-cancer-screening-inaccuracy#h.ws6lwnu9k7p".
+
+    Ir:AIAAIC0726 a Ir:Incident;
+	Ir:hasHeadline "Singapore Xavier patrol robots";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Singapore;
+	Ir:applicationSector Ir:Govt_-_home_interior;
+	Ir:hasSystem "Xavier";
+	Ir:operatedBy Ir:Home_Team_Science_and_Technology_Agency__HTX_;
+	Ir:developedBy Ir:HTX;
+	Ir:developedBy Ir:A_STAR;
+	Ir:hasPurpose "Manage 'undesirable behaviour'";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/singapore-xavier-patrol-robots#h.2tx3d9stlryh".
+
+    Ir:AIAAIC0725 a Ir:Incident;
+	Ir:hasHeadline "Applicant tracking system automated viable candidates rejections";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Multiple;
+	Ir:hasSystem "Multiple";
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:Multiple;
+	Ir:hasPurpose "Filter job candidates";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/applicant-tracking-system-automated-viable-candidate-rejections#h.ew50gfqdh0x".
+
+    Ir:AIAAIC0724 a Ir:Incident;
+	Ir:hasHeadline "Facebook black men 'primates' labelling";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Recommend topics";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-labels-black-men-primates#h.dvwkij1f3g9k".
+
+    Ir:AIAAIC0723 a Ir:Incident;
+	Ir:hasHeadline "Toyota Paralympics self-driving bus crash";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:applicationSector Ir:Automotive;
+	Ir:operatedBy Ir:Toyota;
+	Ir:developedBy Ir:Toyota;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/toyota-paralympics-self-driving-bus-hits-athlete#h.uxufiwph9xc".
+
+    Ir:AIAAIC0722 a Ir:Incident;
+	Ir:hasHeadline "Lumidolls robot brothel";
+	Ir:hasIncidentYear 2017;
+	Ir:hasIncidentRegion Ir:Spain;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Lumidolls";
+	Ir:operatedBy Ir:Lumi_Dolls;
+	Ir:developedBy Ir:Lumi_Dolls;
+	Ir:hasPurpose "Provide sexual services";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/lumidolls-robot-brothel#h.9verqittdteu".
+
+    Ir:AIAAIC0721 a Ir:Incident;
+	Ir:hasHeadline "Hour One 'character' clones";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:operatedBy Ir:Hour_One;
+	Ir:developedBy Ir:Hour_One;
+	Ir:hasPurpose "Market products/services";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/hour-one-character-clones#h.j8c3dhodsuzv".
+
+    Ir:AIAAIC0720 a Ir:Incident;
+	Ir:hasHeadline "Tesla Model 3 hits parked police car";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-model-3-hits-parked-police-car#h.tqwzoai1okjj".
+
+    Ir:AIAAIC0719 a Ir:Incident;
+	Ir:hasHeadline "Tesla Model 3 hits six children, adult";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-model-3-hits-six-children-adult#h.jdyv0m6s9i45".
+
+    Ir:AIAAIC0718 a Ir:Incident;
+	Ir:hasHeadline "Mater Dei Hospital medicine robots";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Malta;
+	Ir:applicationSector Ir:Gov_-_health;
+	Ir:hasSystem "Mario";
+	Ir:operatedBy Ir:Mater_Dei_Hospital;
+	Ir:developedBy Ir:Deenova;
+	Ir:hasPurpose "Distribute medicines";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/mater-dei-hospital-medicine-robots#h.uo9r18r426hr".
+
+    Ir:AIAAIC0717 a Ir:Incident;
+	Ir:hasHeadline "US mortgage approval algorithm race discrimination";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:operatedBy Ir:Freddie_Mac;
+	Ir:operatedBy Ir:Fannie_Mae;
+	Ir:developedBy Ir:Freddie_Mac;
+	Ir:developedBy Ir:Fannie_Mae;
+	Ir:hasPurpose "Assess mortgage applications";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/mortgage-approval-algorithm-discrimination#h.hr0onvnbr3s7".
+
+    Ir:AIAAIC0716 a Ir:Incident;
+	Ir:hasHeadline "Gladsaxe vulnerable children detection";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Denmark;
+	Ir:applicationSector Ir:Govt_-_municipal;
+	Ir:operatedBy Ir:Gladsaxe_Municipality;
+	Ir:developedBy Ir:Gladsaxe_Municipality;
+	Ir:developedBy Ir:Udbetaling_Danmark__UDK_;
+	Ir:hasPurpose "Detect vulnerable children";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gladsaxe-vulnerable-children-detection#h.se48lz1qoxqc".
+
+    Ir:AIAAIC0715 a Ir:Incident;
+	Ir:hasHeadline "US mortgage credit score data economic, race bias";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:operatedBy Ir:Unclear_unknown;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Calculate credit score";
+	Ir:hasPurpose "Predict loan default";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/credit-score-algorithm-data-economic-racial-bias#h.d0yyht9s9txc".
+
+    Ir:AIAAIC0714 a Ir:Incident;
+	Ir:hasHeadline "Facebook facial recognition abuse";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Collect facial biometrics";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-south-korea-facial-recognition-abuse#h.2oj18e1dwqnn".
+
+    Ir:AIAAIC0713 a Ir:Incident;
+	Ir:hasHeadline "Unity GovTech AI military opacity";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:US_Department_of_Defense;
+	Ir:developedBy Ir:Unity;
+	Ir:hasPurpose "Develop military products";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/unity-govtech-ai-military-applications#h.x402gp7k6rdc".
+
+    Ir:AIAAIC0712 a Ir:Incident;
+	Ir:hasHeadline "GoGuardian Beacon student suicide prevention monitoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Education;
+	Ir:operatedBy Ir:Baltimore_City_Public_Schools__Pekin_Community_High_School;
+	Ir:developedBy Ir:Liminex_Inc_GoGuardian;
+	Ir:hasPurpose "Detect & categorise at-risk behaviour";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/goguardian-student-monitoring#h.zcs53wjtjuzr".
+
+    Ir:AIAAIC0711 a Ir:Incident;
+	Ir:hasHeadline "Tesla Optimus bot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Tesla Optimus";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Eliminate 'dangerous, repetitive, boring tasks'";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-optimus-bot#h.md44t1tuzelb".
+
+    Ir:AIAAIC0710 a Ir:Incident;
+	Ir:hasHeadline "USP IS iCOP covert monitoring, data sharing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_postal;
+	Ir:operatedBy Ir:US_Postal_Inspection_Service__USP_IS_;
+	Ir:developedBy Ir:Clearview_AI;
+	Ir:developedBy Ir:Zignal_Labs;
+	Ir:developedBy Ir:Nfusion;
+	Ir:hasPurpose "Identify crime suspects";
+	Ir:hasPurpose "Identify protestors";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/us-postal-inspection-service-icop-covert-monitoring-and-surveillance#h.medavy1k5dsv".
+
+    Ir:AIAAIC0709 a Ir:Incident;
+	Ir:hasHeadline "TikTok LGBTQ shadowbanning";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Bosnia;
+	Ir:hasIncidentRegion Ir:Jordan;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Block/reduce user/content visibility";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-lgbtq-shadowbanning#h.tv5hpkeq7nd5".
+
+    Ir:AIAAIC0708 a Ir:Incident;
+	Ir:hasHeadline "US police perpetual facial line-up";
+	Ir:hasIncidentYear 2016;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:Chicago_PD;
+	Ir:operatedBy Ir:Dallas_PD;
+	Ir:operatedBy Ir:Los_Angeles_Police_Department;
+	Ir:developedBy Ir:Federal_Bureau_of_Investigation__FBI_;
+	Ir:hasPurpose "Identify criminals";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/us-police-perpetual-facial-line-up#h.hf4r9kfgom2p".
+
+    Ir:AIAAIC0707 a Ir:Incident;
+	Ir:hasHeadline "Facebook/Instagram AlgorithmWatch 'legal threats'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Analyse Instagram algorithm";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-misdisinformation-research-transparency#h.1pjbaknuphw".
+
+    Ir:AIAAIC0704 a Ir:Incident;
+	Ir:hasHeadline "NFL concussion settlement 'race-norming'";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:NFL;
+	Ir:developedBy Ir:NFL__BrownGreer;
+	Ir:hasPurpose "Evaluate dementia claims";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/nfl-concussion-settlement-discrimination#h.k7xmbbkof6er".
+
+    Ir:AIAAIC0703 a Ir:Incident;
+	Ir:hasHeadline "Belgrade Safe City surveillance system";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Serbia;
+	Ir:applicationSector Ir:Govt_-_municipal;
+	Ir:operatedBy Ir:Ministry_of_Interior;
+	Ir:developedBy Ir:Huawei;
+	Ir:hasPurpose "Strengthen law enforcement";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/belgrade-safe-city-facial-surveillance#h.cm2ff9ot295b".
+
+    Ir:AIAAIC0702 a Ir:Incident;
+	Ir:hasHeadline "Tesla Model S crashes into fire engine";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-model-s-crashes-into-fire-engine#h.77oqd970j2an".
+
+    Ir:AIAAIC0701 a Ir:Incident;
+	Ir:hasHeadline "GM Chevrolet Bolt hits motorbike";
+	Ir:hasIncidentYear 2017;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:operatedBy Ir:General_Motors;
+	Ir:developedBy Ir:General_Motors;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gm-chevrolet-bolt-motorbike-collision#h.weovzfjucxgu".
+
+    Ir:AIAAIC0700 a Ir:Incident;
+	Ir:hasHeadline "Biodiversity Net Gain metric";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_environment;
+	Ir:hasSystem "Biodiversity Net Gain";
+	Ir:operatedBy Ir:DEFRA;
+	Ir:developedBy Ir:Natural_England;
+	Ir:hasPurpose "Manage conservation";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/defra-biodiversity-net-gain-metric#h.1lvfyjd631r5".
+
+    Ir:AIAAIC0699 a Ir:Incident;
+	Ir:hasHeadline "Deepsukebe nonconsensual nudification";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Unclear_unknown;
+	Ir:developedBy Ir:Anonymous_pseudonymous;
+	Ir:hasPurpose "Undress women";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/deepsukebe-nudification#h.cfwb56ow286z".
+
+    Ir:AIAAIC0698 a Ir:Incident;
+	Ir:hasHeadline "Twitter image cropping age, weight bias";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Crop user photographs";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/twitter-photo-crop-algorithm-age-weight-bias#h.279y5aalab6".
+
+    Ir:AIAAIC0697 a Ir:Incident;
+	Ir:hasHeadline "Xsolla employee monitoring, terminations";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:operatedBy Ir:Xsolla;
+	Ir:developedBy Ir:Xsolla;
+	Ir:hasPurpose "Assess productivity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/xsolla-employee-monitoring-terminations#h.r9ccsahy3gdb".
+
+    Ir:AIAAIC0696 a Ir:Incident;
+	Ir:hasHeadline "Apple NeuralHash CSAM scanning";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Apple;
+	Ir:developedBy Ir:Apple;
+	Ir:hasPurpose "Detect child pornography";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/apple-neuralhash-csam-scanning#h.eqvwn7is6bl8".
+
+    Ir:AIAAIC0695 a Ir:Incident;
+	Ir:hasHeadline "Amazon One palm print biometrics";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:hasSystem "Amazon One";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Verify identity";
+	Ir:hasPurpose "Authorise transactions";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-one-palmprint-biometrics#h.3jkyihkq5bvy".
+
+    Ir:AIAAIC0692 a Ir:Incident;
+	Ir:hasHeadline "Mercadona facial recognition";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Spain;
+	Ir:applicationSector Ir:Retail;
+	Ir:operatedBy Ir:Mercadona;
+	Ir:developedBy Ir:Oosto_AnyVision_Interactive_Technologies;
+	Ir:hasPurpose "Detect criminals";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/mercadona-facial-recognition#h.9ehxpqsz1j73".
+
+    Ir:AIAAIC0691 a Ir:Incident;
+	Ir:hasHeadline "NATO warships AIS spoofing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:operatedBy Ir:Royal_Navy;
+	Ir:operatedBy Ir:Swedish_Navy;
+	Ir:operatedBy Ir:United_States_Navy;
+	Ir:developedBy Ir:International_Maritime_Organisation;
+	Ir:hasPurpose "Track vessel movements";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/royal-navy-warship-ais-spoofing#h.ulyrk0ina1t8".
+
+    Ir:AIAAIC0690 a Ir:Incident;
+	Ir:hasHeadline "Facebook, Google anti-Semitic failure to act";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:operatedBy Ir:Alphabet_Google_YouTube;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Alphabet_Google_YouTube;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Detect hate speech";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-google-anti-semitic-failure-to-act#h.ktd3smvtxnpz".
+
+    Ir:AIAAIC0689 a Ir:Incident;
+	Ir:hasHeadline "ShotSpotter gunshot detection system";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:Chicago_Police_Department;
+	Ir:operatedBy Ir:New_York_Police_Department__NYPD_;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:ShotSpotter;
+	Ir:hasPurpose "Detect gunfire";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/shotspotter-gunfire-detection-system#h.9k1mk4ufvnmg".
+
+    Ir:AIAAIC0688 a Ir:Incident;
+	Ir:hasHeadline "Apple Watch heart rate variability inconsistencies";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Apple;
+	Ir:developedBy Ir:Apple;
+	Ir:hasPurpose "Detect heart rate";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/apple-watch-heart-rate-variability-inconsistencies#h.ak9g8gn3oh3".
+
+    Ir:AIAAIC0687 a Ir:Incident;
+	Ir:hasHeadline "Dubai deepfake court evidence";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:UAE_Dubai;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_justice;
+	Ir:operatedBy Ir:Unclear_unknown;
+	Ir:developedBy Ir:Anonymous_pseudonymous;
+	Ir:hasPurpose "Discredit";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/dubai-deepfake-court-evidence#h.5i62bujasze3".
+
+    Ir:AIAAIC0686 a Ir:Incident;
+	Ir:hasHeadline "Dubai drone weather engineering";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UAE_Dubai;
+	Ir:applicationSector Ir:Govt_-_agriculture;
+	Ir:operatedBy Ir:National_Center_of_Meteorology__NCM_;
+	Ir:developedBy Ir:University_of_Reading;
+	Ir:developedBy Ir:University_of_Bath;
+	Ir:hasPurpose "Seed clouds";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/dubai-drone-weather-engineering#h.gpf8hlsnykt0".
+
+    Ir:AIAAIC0685 a Ir:Incident;
+	Ir:hasHeadline "TrueAllele DNA algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_justice;
+	Ir:operatedBy Ir:Virginia_Department_of_Forensic_Science__DFS_;
+	Ir:developedBy Ir:Cybergenetics;
+	Ir:hasPurpose "Analyse DNA";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/trueallele-dna-algorithm#h.axig64g39pwv".
+
+    Ir:AIAAIC0684 a Ir:Incident;
+	Ir:hasHeadline "Toronto Pearson airport facial recognition test";
+	Ir:hasIncidentYear 2016;
+	Ir:hasIncidentRegion Ir:Canada;
+	Ir:applicationSector Ir:Govt_-_immigration;
+	Ir:operatedBy Ir:Canada_Border_Services_Agency__CBSA_;
+	Ir:developedBy Ir:Face4_Systems_Inc;
+	Ir:hasPurpose "Identify deported travellers";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/cbsa-toronto-pearson-airport-facial-recognition#h.jayzwr6wek9e".
+
+    Ir:AIAAIC0683 a Ir:Incident;
+	Ir:hasHeadline "Twitter suspends Japan PM critics";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:applicationSector Ir:Politics;
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/japan-pm-critics-twitter-suspension#h.ocg1r96pgfvk".
+
+    Ir:AIAAIC0681 a Ir:Incident;
+	Ir:hasHeadline "Henn-na Hotel Tapia robot security";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:operatedBy Ir:H_I_S__Hotel_Group;
+	Ir:developedBy Ir:MJI_Robotics;
+	Ir:hasPurpose "Interact with humans";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/henn-na-hotel-robot-security#h.knulh8z169e9".
+
+    Ir:AIAAIC0680 a Ir:Incident;
+	Ir:hasHeadline "Softbank Pepper 'security joke'";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Japan;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Softbank_Robotics;
+	Ir:developedBy Ir:Softbank_Robotics;
+	Ir:hasPurpose "Interact with humans";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/softbank-pepper-security#h.kt7fsmkuao99".
+
+    Ir:AIAAIC0678 a Ir:Incident;
+	Ir:hasHeadline "Ocado robot collision";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Ocado;
+	Ir:developedBy Ir:Ocado;
+	Ir:hasPurpose "Pick groceries";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ocado-robot-collision#h.7p4sy9b4ac1u".
+
+    Ir:AIAAIC0677 a Ir:Incident;
+	Ir:hasHeadline "Ocado robot charger malfunction";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Ocado;
+	Ir:developedBy Ir:Ocado;
+	Ir:hasPurpose "Pick groceries";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ocado-robot-charger-malfunction#h.4r2422ojksyo".
+
+    Ir:AIAAIC0676 a Ir:Incident;
+	Ir:hasHeadline "Anthony Bourdain deepfake voice";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Focus_Features;
+	Ir:developedBy Ir:Morgan_Neville;
+	Ir:hasPurpose "Imitate voice";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/anthony-bourdain-voice-deepfake#h.kryydarbfoxv".
+
+    Ir:AIAAIC0675 a Ir:Incident;
+	Ir:hasHeadline "Livonia skating rink misidentification";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Riverside_Arena__Livonia__Michigan;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/livonia-skating-rink-misidentifies-black-teenager#h.mc976mkihk1h".
+
+    Ir:AIAAIC0674 a Ir:Incident;
+	Ir:hasHeadline "Russia facial recognition ethnicity analytics";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Russia;
+	Ir:applicationSector Ir:Govt_-_transport;
+	Ir:operatedBy Ir:Moscow_Department_of_Technology;
+	Ir:developedBy Ir:AxxonSoft;
+	Ir:developedBy Ir:Tevian;
+	Ir:developedBy Ir:VisionLabs;
+	Ir:developedBy Ir:NtechLab;
+	Ir:hasPurpose "Identify ethnicity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/russia-facial-recognition-ethnicity-analytics#h.ls9f298ryfrr".
+
+    Ir:AIAAIC0673 a Ir:Incident;
+	Ir:hasHeadline "England footballers racism Instagram moderation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Detect toxic content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/england-footballers-racism-instagram-moderation#h.6lo2a9pg69v6".
+
+    Ir:AIAAIC0672 a Ir:Incident;
+	Ir:hasHeadline "Userviz video game cheating system";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Userviz;
+	Ir:operatedBy Ir:Activision;
+	Ir:developedBy Ir:Anonymous_pseudonymous;
+	Ir:hasPurpose "Cheat video games";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/userviz-video-game-cheating-system#h.12cfyeu5lr31".
+
+    Ir:AIAAIC0671 a Ir:Incident;
+	Ir:hasHeadline "Tencent 'Midnight Patrol' facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Tencent;
+	Ir:developedBy Ir:Tencent;
+	Ir:hasPurpose "Restrict gaming hours";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tencent-midnight-patrol-facial-recognition#h.2d8k1z2za2p5".
+
+    Ir:AIAAIC0670 a Ir:Incident;
+	Ir:hasHeadline "Github Copilot 'code laundering'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Microsoft_Github;
+	Ir:developedBy Ir:Microsoft_Github;
+	Ir:developedBy Ir:OpenAI;
+	Ir:hasPurpose "Generate code";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/microsoftgithub-copilot-code-laundering#h.trbzb66h71l9".
+
+    Ir:AIAAIC0669 a Ir:Incident;
+	Ir:hasHeadline "Bev Standing TikTok voice 'theft'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Convert speech to text";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bytedancetiktok-bev-standing-voice-theft#h.cm7isxindmte".
+
+    Ir:AIAAIC0668 a Ir:Incident;
+	Ir:hasHeadline "ENA Emergency Severity Index racial bias";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Brigham_and_Women_s_Hospital__Boston;
+	Ir:operatedBy Ir:Emergency_Nurses_Association__ENA_;
+	Ir:developedBy Ir:Emergency_Nurses_Association__ENA_;
+	Ir:hasPurpose "Assess medical condition";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ena-emergency-severity-index#h.jldw9lnynnxj".
+
+    Ir:AIAAIC0667 a Ir:Incident;
+	Ir:hasHeadline "Reddit shadowbanning";
+	Ir:hasIncidentYear 2015;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Reddit;
+	Ir:developedBy Ir:Reddit;
+	Ir:hasPurpose "Block/reduce user visibility";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/reddit-shadowbanning#h.xq8ns5v1x6kg".
+
+    Ir:AIAAIC0666 a Ir:Incident;
+	Ir:hasHeadline "Amazon automated pricing glitch";
+	Ir:hasIncidentYear 2014;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Repricer_Express;
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Repricer_Express;
+	Ir:hasPurpose "Change product pricing";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-automated-pricing-glitch#h.fjuynsgvtu4a".
+
+    Ir:AIAAIC0665 a Ir:Incident;
+	Ir:hasHeadline "TikTok mandatory beauty filtering";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Beautify user faces";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-mandatory-beauty-filtering#h.92bzigrtcgmw".
+
+    Ir:AIAAIC0664 a Ir:Incident;
+	Ir:hasHeadline "TikTok creators hate speech detection";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Detect hate speech";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-creators-hate-speech-detection#h.33uwy78ok97q".
+
+    Ir:AIAAIC0663 a Ir:Incident;
+	Ir:hasHeadline "Foodinho rider management algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Italy;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Glovo_Foodinho;
+	Ir:developedBy Ir:Glovo_Foodinho;
+	Ir:hasPurpose "Manage workers";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/glovofoodinho-rider-management-algorithm#h.13m3188witeg".
+
+    Ir:AIAAIC0662 a Ir:Incident;
+	Ir:hasHeadline "Uber, Lyft Alfi rider tablets";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Uber;
+	Ir:operatedBy Ir:Lyft;
+	Ir:developedBy Ir:Alfi;
+	Ir:hasPurpose "Sell advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uberlyft-alfi-driver-tablets#h.gj6w6ba4glsw".
+
+    Ir:AIAAIC0661 a Ir:Incident;
+	Ir:hasHeadline "Canon smile recognition cameras";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Canon;
+	Ir:developedBy Ir:Canon;
+	Ir:hasPurpose "Encourage workplace productivity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/canon-smile-recognition-cameras#h.o7wngvj330n4".
+
+    Ir:AIAAIC0660 a Ir:Incident;
+	Ir:hasHeadline "Salesken AI data breach";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:India;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Salesken_AI;
+	Ir:developedBy Ir:Salesken_AI;
+	Ir:hasPurpose "Strengthen customer relationships";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/salesken-ai-data-breach#h.basop9lcl93x".
+
+    Ir:AIAAIC0659 a Ir:Incident;
+	Ir:hasHeadline "Witcher 3 AI voice lines simulation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:CD_Projekt_Red;
+	Ir:developedBy Ir:Mind_Simulation_Lab;
+	Ir:hasPurpose "Simulate voice dialogue";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/witcher-3-ai-voice-line-simulation#h.1x7qn8c2j7u4".
+
+    Ir:AIAAIC0658 a Ir:Incident;
+	Ir:hasHeadline "Amazon Flex algorithm delivery driver firings";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Increase efficiency";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-flex-algorithm-delivery-driver-firings#h.1aiiezm1n9qp".
+
+    Ir:AIAAIC0657 a Ir:Incident;
+	Ir:hasHeadline "Epic Systems sepsis prediction algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:University_of_Michigan;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:Epic_Systems;
+	Ir:hasPurpose "Predict sepsis infection";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/epic-systems-sepsis-prediction-algorithm#h.ed10z92n5okm".
+
+    Ir:AIAAIC0656 a Ir:Incident;
+	Ir:hasHeadline "Beijing Uyghur fake influence campaign";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Govt_-_home_interior;
+	Ir:applicationSector Ir:Govt_-_foreign;
+	Ir:applicationSector Ir:Govt_-_security;
+	Ir:operatedBy Ir:Government_of_China;
+	Ir:operatedBy Ir:Pomegranate_Cloud_People_s_Daily;
+	Ir:operatedBy Ir:Global_Times;
+	Ir:developedBy Ir:Government_of_China;
+	Ir:hasPurpose "Confuse/destabilise";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/beijing-uyghur-fake-influence-campaign#h.zbi9m7v9mf5".
+
+    Ir:AIAAIC0655 a Ir:Incident;
+	Ir:hasHeadline "Tesla Model 3, Y Autopilot cruise control activation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Control speed";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tesla-autopilot-cruise-control-activation#h.w3625oaawu26".
+
+    Ir:AIAAIC0654 a Ir:Incident;
+	Ir:hasHeadline "ID.me unemployment benefit facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:applicationSector Ir:Govt_-_tax;
+	Ir:operatedBy Ir:ID_me;
+	Ir:operatedBy Ir:US_Inland_Revenue_Service__IRS_;
+	Ir:developedBy Ir:ID_me;
+	Ir:hasPurpose "Verify identity";
+	Ir:hasPurpose "Detect fraud";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/id-me-unemployment-benefit-applications#h.7vq644jdcct9".
+
+    Ir:AIAAIC0653 a Ir:Incident;
+	Ir:hasHeadline "TikTok beheading video splicing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Detect offensive content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-beheading-video-splicing#h.rwkc51jr9fpg".
+
+    Ir:AIAAIC0652 a Ir:Incident;
+	Ir:hasHeadline "NYPD Domain Awareness System, facial recognition";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:New_York_Police_Department__NYPD_;
+	Ir:developedBy Ir:Microsoft;
+	Ir:hasPurpose "Strengthen public safety, security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/nypd-domain-awareness-system#h.nyoawy4rep5p".
+
+    Ir:AIAAIC0651 a Ir:Incident;
+	Ir:hasHeadline "McDonald's drive-through chatbot order taker";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:operatedBy Ir:McDonald_s_McD_Tech_Labs;
+	Ir:developedBy Ir:McDonald_s_McD_Tech_Labs;
+	Ir:hasPurpose "Personalise orders";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/mcdonalds-drive-through-chatbot-order-taker#h.civ3mnc64hrs".
+
+    Ir:AIAAIC0650 a Ir:Incident;
+	Ir:hasHeadline "CaliBurger Flippy robot";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:operatedBy Ir:Cali_Group;
+	Ir:developedBy Ir:Miso_Robotics;
+	Ir:hasPurpose "Flip burgers";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/caliburger-flippy-robot#h.ratwivatolaa".
+
+    Ir:AIAAIC0649 a Ir:Incident;
+	Ir:hasHeadline "Instacart gig shopper robotisation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Instacart;
+	Ir:developedBy Ir:Instacart;
+	Ir:hasPurpose "Increase efficiency";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/instacart-gig-shopper-robotisation#h.3zz2hap765i0".
+
+    Ir:AIAAIC0648 a Ir:Incident;
+	Ir:hasHeadline "Aespa virtual K-pop";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:SM_Entertainment;
+	Ir:developedBy Ir:SM_Entertainment;
+	Ir:hasPurpose "Create virtual avatars";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/aespa-virtual-k-pop#h.vvaqjzrz2vv6".
+
+    Ir:AIAAIC0647 a Ir:Incident;
+	Ir:hasHeadline "Google/HCA Healthcare patient data sharing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:HCA_Healthcare;
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Increase operating efficiency";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/googlehca-healthcare-patient-data-sharing#h.bs7qw4zaw0oq".
+
+    Ir:AIAAIC0646 a Ir:Incident;
+	Ir:hasHeadline "Tencent link blocking";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Tencent;
+	Ir:developedBy Ir:Tencent;
+	Ir:hasPurpose "Block web traffic";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tencent-app-link-blocking#h.nm7naa71768".
+
+    Ir:AIAAIC0645 a Ir:Incident;
+	Ir:hasHeadline "RCMP facial recognition surveillance";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Canada;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:Royal_Canadian_Mounted_Police__RCMP_;
+	Ir:developedBy Ir:Clearview_AI;
+	Ir:hasPurpose "Strengthen law enforcement";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/rcmpclearview-ai-facial-recognition-surveillance#h.lruh0amlo7w".
+
+    Ir:AIAAIC0644 a Ir:Incident;
+	Ir:hasHeadline "Epic Systems Epic Deterioration Index (EDI)";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Parkview_Health;
+	Ir:operatedBy Ir:University_of_Michigan;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:Epic_Systems_Corporation;
+	Ir:hasPurpose "Predict patient outcomes";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/epic-systems-epic-deterioration-index#h.55er04bbojfw".
+
+    Ir:AIAAIC0643 a Ir:Incident;
+	Ir:hasHeadline "CPB One asylum seeker app privacy";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_immigration;
+	Ir:operatedBy Ir:Customs_and_Border_Protection;
+	Ir:developedBy Ir:Customs_and_Border_Protection;
+	Ir:hasPurpose "Manage migration";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/cpb-one-asylum-seeker-app-privacy#h.j387f4efrm14".
+
+    Ir:AIAAIC0642 a Ir:Incident;
+	Ir:hasHeadline "Microsoft/Bing Tiananmen Square Tank Man 'censorship'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Multiple;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Microsoft;
+	Ir:developedBy Ir:Microsoft;
+	Ir:hasPurpose "Rank content/search results";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/microsoftbing-tiananmen-square-tank-man#h.u4zu73nzddc7".
+
+    Ir:AIAAIC0641 a Ir:Incident;
+	Ir:hasHeadline "Kargu-2 'autonomous' drone attack";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Libya;
+	Ir:hasIncidentRegion Ir:Turkey;
+	Ir:applicationSector Ir:Govt_-_defence;
+	Ir:operatedBy Ir:Government_of_Libya;
+	Ir:developedBy Ir:STM;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/kargu-2-autonomous-drone-attack#h.1f7noz1gxhu0".
+
+    Ir:AIAAIC0640 a Ir:Incident;
+	Ir:hasHeadline "Apple/SIS misidentification, wrongful arrest";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Apple;
+	Ir:operatedBy Ir:Security_Industry_Specialists__SIS_;
+	Ir:developedBy Ir:Security_Industry_Specialists__SIS_;
+	Ir:hasPurpose "Verify identity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/applesis-misidentification-wrongful-arrest#h.a1pfiq8jv870".
+
+    Ir:AIAAIC0639 a Ir:Incident;
+	Ir:hasHeadline "NHS patient medical history data store";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Gov_-_health;
+	Ir:operatedBy Ir:National_Health_Service__NHS_;
+	Ir:developedBy Ir:NHS_Digital;
+	Ir:hasPurpose "Centralise patient records";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uk-nhs-digital-medical-history-database#h.uzdn3fcw1p8b".
+
+    Ir:AIAAIC0638 a Ir:Incident;
+	Ir:hasHeadline "BookCorpus dataset";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Canada;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "BookCorpus";
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:operatedBy Ir:Amazon;
+	Ir:operatedBy Ir:OpenAI;
+	Ir:operatedBy Ir:Samsung;
+	Ir:developedBy Ir:Yukun_Zhu;
+	Ir:developedBy Ir:Ryan_Kiros;
+	Ir:developedBy Ir:Richard_Zemel;
+	Ir:developedBy Ir:Ruslan_Salakhutdinov;
+	Ir:developedBy Ir:Raquel_Urtasun;
+	Ir:developedBy Ir:Antonio_Torralba;
+	Ir:developedBy Ir:Sanja_Fidler;
+	Ir:hasPurpose "Train language models";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bookcorpus-dataset-bias-copyright-abuse#h.ky4li6x56trv".
+
+    Ir:AIAAIC0637 a Ir:Incident;
+	Ir:hasHeadline "Lemonade 'non-verbal cue' assessments";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:operatedBy Ir:Lemonade_Inc;
+	Ir:developedBy Ir:Lemonade_Inc;
+	Ir:hasPurpose "Assess & process insurance claims";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/lemonade-non-verbal-assessments#h.l8uj4ehv52on".
+
+    Ir:AIAAIC0636 a Ir:Incident;
+	Ir:hasHeadline "GPT-3 short-form misinformation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Politics;
+	Ir:operatedBy Ir:OpenAI;
+	Ir:developedBy Ir:OpenAI;
+	Ir:hasPurpose "Generate natural language";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/openaigpt-3-short-form-misinformation#h.wagvxqpnwjm5".
+
+    Ir:AIAAIC0635 a Ir:Incident;
+	Ir:hasHeadline "Uyghur emotion detection testing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:Government_of_China;
+	Ir:developedBy Ir:Dahua__Hikvision;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uyghur-emotion-detection-testing#h.ov8thqcbj22v".
+
+    Ir:AIAAIC0634 a Ir:Incident;
+	Ir:hasHeadline "Starship Technologies robot canal crash";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Starship_Technologies;
+	Ir:developedBy Ir:Starship_Technologies;
+	Ir:hasPurpose "Deliver groceries";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/starship-technologies-robot-crashes-into-canal#h.88kfk8mbln09".
+
+    Ir:AIAAIC0633 a Ir:Incident;
+	Ir:hasHeadline "Google Derm Assist dermatology app";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:hasPurpose "Identify dermatological issues";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-derm-assist-dermatology-app-bias-privacy#h.orq3h1hmlzg3".
+
+    Ir:AIAAIC0632 a Ir:Incident;
+	Ir:hasHeadline "Cambodia torture victims' photo manipulation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Rep_Ireland;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Vice_News;
+	Ir:developedBy Ir:Matt_Loughrey;
+	Ir:hasPurpose "Colourise photographs";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/cambodia-torture-victims-photo-manipulation#h.qcg02bqyioc0".
+
+    Ir:AIAAIC0631 a Ir:Incident;
+	Ir:hasHeadline "Social media LGBTQ discrimination";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktokinstagramfacebook-lgbtq-discrimination#h.ohmhk275i7hy".
+
+    Ir:AIAAIC0630 a Ir:Incident;
+	Ir:hasHeadline "Citizen app wrongful manhunt";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Citizen;
+	Ir:developedBy Ir:Citizen;
+	Ir:hasPurpose "Strengthen public safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/citizen-app-wrongful-manhunt#h.uoo7393ghkg1".
+
+    Ir:AIAAIC0629 a Ir:Incident;
+	Ir:hasHeadline "Sao Paulo METRO advertising facial biometrics";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Brazil;
+	Ir:applicationSector Ir:Govt_-_transport;
+	Ir:operatedBy Ir:ViaQuatro;
+	Ir:operatedBy Ir:Companhia_do_Metropolitano_de_São_Paulo__METRO_;
+	Ir:developedBy Ir:AdMobilize;
+	Ir:hasPurpose "Identify consumer identity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/sao-paulo-metro-advertising-facial-biometrics#h.g6xktl5f94bq".
+
+    Ir:AIAAIC0628 a Ir:Incident;
+	Ir:hasHeadline "New Zealand immigration overstayer predictions";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:New_Zealand;
+	Ir:applicationSector Ir:Govt_-_immigration;
+	Ir:operatedBy Ir:Immigration_New_Zealand;
+	Ir:developedBy Ir:Immigration_New_Zealand___;
+	Ir:hasPurpose "Predict visa overstayers";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/inz-immigration-overstayers-predictions#h.adj5l76tfmg3".
+
+    Ir:AIAAIC0627 a Ir:Incident;
+	Ir:hasHeadline "Appen recruitment skin colour assessment";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Appen;
+	Ir:developedBy Ir:Appen;
+	Ir:hasPurpose "Determine skin colour";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/appen-recruitment-skin-colour-assessment#h.kt1w9ttmw037".
+
+    Ir:AIAAIC0626 a Ir:Incident;
+	Ir:hasHeadline "Airbnb Smart Pricing algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Travel_hospitality;
+	Ir:operatedBy Ir:Airbnb;
+	Ir:developedBy Ir:Airbnb;
+	Ir:hasPurpose "Determine price";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/airbnb-smart-pricing-algorithm-racism#h.723g5wo7por7".
+
+    Ir:AIAAIC0625 a Ir:Incident;
+	Ir:hasHeadline "Instagram/Twitter remove, block Palestinian posts";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Palestine;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:operatedBy Ir:Twitter;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/instagramtwitter-remove-block-palestinian-posts#h.rqspbube9pft".
+
+    Ir:AIAAIC0624 a Ir:Incident;
+	Ir:hasHeadline "Rear seat driver Tesla Autopilot abuse";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/driver-abuses-tesla-autopilot-by-sitting-in-rear-seat#h.u6jwgje5misi".
+
+    Ir:AIAAIC0623 a Ir:Incident;
+	Ir:hasHeadline "China diplomatic fake influence campaign";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Politics;
+	Ir:operatedBy Ir:Government_of_China;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Twitter;
+	Ir:hasPurpose "Increase influence";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/china-diplomatic-fake-influence-campaign#h.nfsmx6ybdcwl".
+
+    Ir:AIAAIC0622 a Ir:Incident;
+	Ir:hasHeadline "TikTok child personal data harvesting";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Collect, analyse & sell personal data";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-child-personal-data-harvesting#h.k3tjla4wwf3p".
+
+    Ir:AIAAIC0621 a Ir:Incident;
+	Ir:hasHeadline "Facebook teen alcohol, drug, gambling ad approvals";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Review advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-teen-alcohol-drug-gambling-ads-approvals#h.jfoelilul2x8".
+
+    Ir:AIAAIC0620 a Ir:Incident;
+	Ir:hasHeadline "Facebook COVID-19 misinformation ad approvals";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Review advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-covid-19-misinformation-ad-approvals#h.w4to25v2gpja".
+
+    Ir:AIAAIC0619 a Ir:Incident;
+	Ir:hasHeadline "Dartmouth College medical school remote exam cheating";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Dartmouth_College;
+	Ir:developedBy Ir:Dartmouth_College;
+	Ir:hasPurpose "Detect and prevent cheating";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/dartmouth-medical-school-remote-exam-cheating#h.h16evv5p84tx".
+
+    Ir:AIAAIC0618 a Ir:Incident;
+	Ir:hasHeadline "Facebook 'pseudoscience' ad targeting";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Target audiences";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-pseudoscience-ad-targeting#h.jr8zdhxa0urg".
+
+    Ir:AIAAIC0616 a Ir:Incident;
+	Ir:hasHeadline "AI Dungeon offensive speech filter";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Latitude;
+	Ir:developedBy Ir:Latitude;
+	Ir:developedBy Ir:OpenAI;
+	Ir:hasPurpose "Minimise sexual content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ai-dungeon-offensive-speech-filter#h.lbq03qa0ylmy".
+
+    Ir:AIAAIC0615 a Ir:Incident;
+	Ir:hasHeadline "Facebook credit card age ad targeting";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Target audiences";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-credit-card-age-ad-targeting#h.3lyltylywhu8".
+
+    Ir:AIAAIC0614 a Ir:Incident;
+	Ir:hasHeadline "YouTube ads hate speech blocklist";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Alphabet_Google_YouTube;
+	Ir:developedBy Ir:Alphabet_Google_YouTube;
+	Ir:hasPurpose "Identify & block offensive ads";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/youtube-ads-hate-speech-blocklist#h.9xeag8ogh0p".
+
+    Ir:AIAAIC0612 a Ir:Incident;
+	Ir:hasHeadline "UK Post Office scandal";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_retail;
+	Ir:operatedBy Ir:Post_Office;
+	Ir:developedBy Ir:Fujitsu_ICL;
+	Ir:hasPurpose "Make benefits payments";
+	Ir:hasPurpose "Reduce fraud";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uk-post-office-scandal#h.xwkr8a64x0l9".
+
+    Ir:AIAAIC0578 a Ir:Incident;
+	Ir:hasHeadline "Retorio talent personality assessments";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Germany;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Retorio personality asssessment";
+	Ir:operatedBy Ir:Lufthansa;
+	Ir:operatedBy Ir:BMW_Group;
+	Ir:operatedBy Ir:ADAC;
+	Ir:developedBy Ir:Retorio;
+	Ir:hasPurpose "Identify personality traits";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/retorio-talent-behavioural-assessment#h.gj4ln5kr4meh".
+
+    Ir:AIAAIC0572 a Ir:Incident;
+	Ir:hasHeadline "4 Little Trees (4LT)";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Hong_Kong;
+	Ir:applicationSector Ir:Education;
+	Ir:hasSystem "4 Little Trees (4LT)";
+	Ir:operatedBy Ir:True_Light_College;
+	Ir:developedBy Ir:Find_Solution_AI;
+	Ir:hasPurpose "Identify/monitor emotions";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/4-little-trees-4lt#h.iumul0g5lkgt".
+
+    Ir:AIAAIC0558 a Ir:Incident;
+	Ir:hasHeadline "TALON AI license plate camera surveillance";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:New_Lenox_Police_Department;
+	Ir:operatedBy Ir:Atherton_Police_Department;
+	Ir:operatedBy Ir:Memorial_Villages_Police_Department;
+	Ir:operatedBy Ir:Dayton_Police_Department;
+	Ir:operatedBy Ir:Sacramento_Police_Department;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:Flock_Safety;
+	Ir:hasPurpose "Strengthen law enforcement";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/talon-ai-camera-surveillance#h.4zbvgurf953a".
+
+    Ir:AIAAIC0556 a Ir:Incident;
+	Ir:hasHeadline "NYPD 'digidog'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:New_York_Police_Department__NYPD_;
+	Ir:developedBy Ir:Hyundai_Motor_Group_Boston_Dynamics;
+	Ir:hasPurpose "Strengthen law enforcement";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/nypd-digidog#h.4d733hpz1aiy".
+
+    Ir:AIAAIC0554 a Ir:Incident;
+	Ir:hasHeadline "Netherlands childcare benefits fraud automation";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:Netherlands;
+	Ir:applicationSector Ir:Govt_-_tax;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:operatedBy Ir:Tax_and_Customs_Administration;
+	Ir:operatedBy Ir:Ministry_of_Social_Affairs___Employment;
+	Ir:developedBy Ir:Tax_and_Customs_Administration;
+	Ir:developedBy Ir:Ministry_of_Social_Affairs___Employment;
+	Ir:hasPurpose "Detect compliance errors";
+	Ir:hasPurpose "Detect fraud";
+	Ir:hasPurpose "Assess/classify risk";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/netherlands-childcare-benefits-fraud-automation#h.uhmert5yd3ui".
+
+    Ir:AIAAIC0555 a Ir:Incident;
+	Ir:hasHeadline "Ji Chang Son/Tesla Model X sudden acceleration";
+	Ir:hasIncidentYear 2016;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:hasSystem "Tesla Autopilot";
+	Ir:operatedBy Ir:Tesla;
+	Ir:developedBy Ir:Tesla;
+	Ir:hasPurpose "Automate steering, acceleration, braking";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/son-ji-chang-tesla-model-x-sudden-acceleration#h.4197hqn6eeqf".
+
+    Ir:AIAAIC0551 a Ir:Incident;
+	Ir:hasHeadline "TikTok #intersex 'censorship'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-intersex-censorship#h.71fpjfn72".
+
+    Ir:AIAAIC0550 a Ir:Incident;
+	Ir:hasHeadline "Spotify emotion recognition patent";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:Spotify;
+	Ir:developedBy Ir:Spotify;
+	Ir:hasPurpose "Assess emotion";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/spotify-emotion-recognition-patent#h.hqr0uhpgr5ez".
+
+    Ir:AIAAIC0549 a Ir:Incident;
+	Ir:hasHeadline "Kim Kwang Seok voice recreation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:SBS;
+	Ir:developedBy Ir:Supertone;
+	Ir:hasPurpose "Recreate voice";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/kim-kwang-seok-voice-recreation#h.d6ehs1eawrqg".
+
+    Ir:AIAAIC0548 a Ir:Incident;
+	Ir:hasHeadline "Tom Cruise deepfakes";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:Chris_Ume;
+	Ir:developedBy Ir:Miles_Fisher;
+	Ir:hasPurpose "Imitate celebrity";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tom-cruise-deepfakes#h.g0lr1gjuapa8".
+
+    Ir:AIAAIC0547 a Ir:Incident;
+	Ir:hasHeadline "MyHeritage Deep Nostalgia";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:operatedBy Ir:MyHeritage;
+	Ir:developedBy Ir:D-ID;
+	Ir:developedBy Ir:MyHeritage;
+	Ir:hasPurpose "Imitate ancestors";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/myheritage-deep-nostalgia#h.70vbbxg6hn1h".
+
+    Ir:AIAAIC0546 a Ir:Incident;
+	Ir:hasHeadline "Faces of the Riot facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Politics;
+	Ir:operatedBy Ir:Anonymous_pseudonymous;
+	Ir:developedBy Ir:Anonymous_pseudonymous;
+	Ir:hasPurpose "Identify protestors";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/faces-of-the-riot-facial-recognition#h.qv0jpdwwnnt5".
+
+    Ir:AIAAIC0545 a Ir:Incident;
+	Ir:hasHeadline "QOVES AI beauty scoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:applicationSector Ir:Cosmetics;
+	Ir:operatedBy Ir:QOVES;
+	Ir:developedBy Ir:QOVES;
+	Ir:hasPurpose "Assess & rank beauty";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/qovesmegvii-ai-beauty-scoring#h.94365bd6gmf4".
+
+    Ir:AIAAIC0544 a Ir:Incident;
+	Ir:hasHeadline "Cruzcampo Lola Flores deepfake ad";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Spain;
+	Ir:applicationSector Ir:Consumer_goods;
+	Ir:operatedBy Ir:Cruzcampo;
+	Ir:developedBy Ir:WPP_Ogilvy;
+	Ir:developedBy Ir:Metropolitana;
+	Ir:developedBy Ir:DeepFaceLab;
+	Ir:hasPurpose "Imitate Lola Flores";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/cruzcampo-lola-flores-deepfake-ad#h.v3wxblbaa6z6".
+
+    Ir:AIAAIC0543 a Ir:Incident;
+	Ir:hasHeadline "BMW, Kohler, MaxMara China facial recognition";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Retail;
+	Ir:operatedBy Ir:Kohler;
+	Ir:operatedBy Ir:BMW;
+	Ir:operatedBy Ir:MaxMara;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Understand shopper behaviour";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/kohler-bmw-maxmara-china-facial-recognition#h.j8cp467nd78m".
+
+    Ir:AIAAIC0541 a Ir:Incident;
+	Ir:hasHeadline "Amazon AWS Panorama workplace surveillance";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Assess product quality";
+	Ir:hasPurpose "Monitor workplace safety & security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-aws-panorama-workplace-surveillance#h.gn0ewfmlgcnf".
+
+    Ir:AIAAIC0540 a Ir:Incident;
+	Ir:hasHeadline "Amazon algorithms promote vaccine misinformation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:France;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Amazon;
+	Ir:operatedBy Ir:Foyles;
+	Ir:operatedBy Ir:Waterstones;
+	Ir:developedBy Ir:Amazon;
+	Ir:developedBy Ir:Foyles;
+	Ir:developedBy Ir:Waterstones;
+	Ir:hasPurpose "Recommend products";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-algorithms-promote-vaccine-misinformation#h.a0m88ktnvs2t".
+
+    Ir:AIAAIC0539 a Ir:Incident;
+	Ir:hasHeadline "Amazon deepfake ambassadors";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Amazon;
+	Ir:hasPurpose "Defend company reputation";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-anti-union-fake-ambassadors#h.1ktadtzibw2p".
+
+    Ir:AIAAIC0538 a Ir:Incident;
+	Ir:hasHeadline "AnyVision facial recognition drones";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:applicationSector Ir:Multiple;
+	Ir:operatedBy Ir:Unclear_unknown;
+	Ir:developedBy Ir:Oosto_AnyVision_Interactive_Technologies;
+	Ir:hasPurpose "Identify military targets";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/oostoanyvision-facial-recognition-drones#h.srfkcrxd3bdf".
+
+    Ir:AIAAIC0537 a Ir:Incident;
+	Ir:hasHeadline "Doordash tip withholding";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Doordash;
+	Ir:developedBy Ir:Doordash;
+	Ir:hasPurpose "Determine worker pay";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/doordash-tip-witholding#h.xn1ymonvsw1t".
+
+    Ir:AIAAIC0535 a Ir:Incident;
+	Ir:hasHeadline "Bytedance Uyghur 'censorship'";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "TikTok For You";
+	Ir:operatedBy Ir:ByteDance_TikTok_Douyin;
+	Ir:developedBy Ir:ByteDance_TikTok_Douyin;
+	Ir:hasPurpose "Identify/remove toxic content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/bytedancetiktok-uyghur-censorship#h.l29x2mby9etb".
+
+    Ir:AIAAIC0534 a Ir:Incident;
+	Ir:hasHeadline "Clearview AI consumer applications";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:developedBy Ir:Clearview_AI;
+	Ir:hasPurpose "Multiple";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/clearview-ai-consumer-applications#h.nud7xji5k5kq".
+
+    Ir:AIAAIC0533 a Ir:Incident;
+	Ir:hasHeadline "Facebook job ad delivery gender discrimination";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Target audiences";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-job-ad-delivery-gender-discrimination#h.36g5g73leeyw".
+
+    Ir:AIAAIC0532 a Ir:Incident;
+	Ir:hasHeadline "Seoul bridge AI suicide monitoring, prevention";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Govt_-_municipal;
+	Ir:operatedBy Ir:Seoul_Metropolitan_Government;
+	Ir:developedBy Ir:Seoul_Institute_of_Technology__SIT_;
+	Ir:developedBy Ir:Seoul_Fire_and_Disaster_Headquarters__SFDH_;
+	Ir:hasPurpose "Reduce suicides";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/seoul-bridge-suicide-detection#h.3s3pmjdzlcm".
+
+    Ir:AIAAIC0530 a Ir:Incident;
+	Ir:hasHeadline "Facebook political group recommendations";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Politics;
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Recommend groups";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-political-group-recommendations#h.e0503efr99cq".
+
+    Ir:AIAAIC0529 a Ir:Incident;
+	Ir:hasHeadline "Facebook Georgia political partisanship";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Politics;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Review advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-georgia-political-partisanship#h.6837jzx2ahcn".
+
+    Ir:AIAAIC0528 a Ir:Incident;
+	Ir:hasHeadline "Facebook military gear advertising";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Retail;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Review advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-military-gear-advertising#h.ehm238djtpr1".
+
+    Ir:AIAAIC0527 a Ir:Incident;
+	Ir:hasHeadline "Facebook 'sexual' cows, office building blocking";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:hasSystem "Facebook Ads";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Review advertising";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-blocks-sexual-cows#h.w0yzua919ii2".
+
+    Ir:AIAAIC0526 a Ir:Incident;
+	Ir:hasHeadline "Facebook Australia news, civil society blocks";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Australia;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Facebook News Feed";
+	Ir:operatedBy Ir:Meta_Facebook;
+	Ir:developedBy Ir:Meta_Facebook;
+	Ir:hasPurpose "Moderate content";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/facebook-australia-news-civil-society-blocks#h.cmt6svcp1pxz".
+
+    Ir:AIAAIC0522 a Ir:Incident;
+	Ir:hasHeadline "Portland smart city mobility tracking";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_municipal;
+	Ir:hasSystem "Flow";
+	Ir:operatedBy Ir:Portland_Metro;
+	Ir:developedBy Ir:Alphabet_Google_Sidewalk_Labs;
+	Ir:developedBy Ir:Replica;
+	Ir:hasPurpose "Track mobility patterns";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-sidewalk-labs-portland-smart-city#h.sdn6nbf6d287".
+
+    Ir:AIAAIC0521 a Ir:Incident;
+	Ir:hasHeadline "Google Nest Hub 2 sleep sensing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Health;
+	Ir:hasSystem "Google Nest Hub 2";
+	Ir:operatedBy Ir:Alphabet_Google_Nest;
+	Ir:developedBy Ir:Alphabet_Google_Nest;
+	Ir:hasPurpose "Detect & analyse sleep patterns";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-nest-hub-2-sleep-tracking#h.tm6i1x7zvvu1".
+
+    Ir:AIAAIC0520 a Ir:Incident;
+	Ir:hasHeadline "Huawei Uyghur-spotting patent";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:applicationSector Ir:Govt_-_security;
+	Ir:operatedBy Ir:Unclear_unknown;
+	Ir:developedBy Ir:Huawei;
+	Ir:developedBy Ir:Chinese_Academy_of_Sciences;
+	Ir:hasPurpose "Detect Uyghurs";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/huawei-uyghur-spotting-patent#h.34q7uvp36idk".
+
+    Ir:AIAAIC0519 a Ir:Incident;
+	Ir:hasHeadline "Huawei 5G influence campaign";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Belgium;
+	Ir:applicationSector Ir:Govt_-_telecoms;
+	Ir:operatedBy Ir:Huawei;
+	Ir:developedBy Ir:Unclear_unknown;
+	Ir:hasPurpose "Influence govt";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/huawei-5g-influence-campaign#h.kuvvuzmmh2uo".
+
+    Ir:AIAAIC0518 a Ir:Incident;
+	Ir:hasHeadline "IBM Project Debater";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "Project Debater";
+	Ir:operatedBy Ir:IBM;
+	Ir:developedBy Ir:IBM;
+	Ir:hasPurpose "Debate with humans";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/ibm-project-debater#h.rf7dw2t9yd5i".
+
+    Ir:AIAAIC0517 a Ir:Incident;
+	Ir:hasHeadline "Intel Bleep hate speech moderator";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Intel;
+	Ir:developedBy Ir:Intel;
+	Ir:hasPurpose "Reduce toxic language";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/intel-bleep-hate-speech-moderator#h.3q4ct3a09z98".
+
+    Ir:AIAAIC0516 a Ir:Incident;
+	Ir:hasHeadline "Microsoft reincarnation chatbot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:Microsoft;
+	Ir:developedBy Ir:Microsoft;
+	Ir:hasPurpose "Imitate personality";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/microsoft-reincarnation-chatbot#h.yvcrudvb202p".
+
+    Ir:AIAAIC0515 a Ir:Incident;
+	Ir:hasHeadline "Moodbeam HR emotion tracking";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Health;
+	Ir:operatedBy Ir:Moodbeam;
+	Ir:developedBy Ir:Moodbeam;
+	Ir:hasPurpose "Monitor emotions";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/moodbeam-emotional-tracking#h.tft4xx9salfr".
+
+    Ir:AIAAIC0513 a Ir:Incident;
+	Ir:hasHeadline "GPT-3 anti-Muslim bias";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:hasSystem "GPT-3";
+	Ir:operatedBy Ir:OpenAI;
+	Ir:developedBy Ir:OpenAI;
+	Ir:hasPurpose "Generate natural language";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gpt-3-anti-muslim-bias#h.9yes9gwf6as3".
+
+    Ir:AIAAIC0512 a Ir:Incident;
+	Ir:hasHeadline "GPT-2 dupes Medicaid";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_health;
+	Ir:hasSystem "GPT-2";
+	Ir:operatedBy Ir:OpenAI;
+	Ir:developedBy Ir:OpenAI;
+	Ir:hasPurpose "Generate natural language";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gpt-2-dupes-medicaid#h.rde0ya9vpnjl".
+
+    Ir:AIAAIC0511 a Ir:Incident;
+	Ir:hasHeadline "AOC bikini image generation";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:hasSystem "iGPT";
+	Ir:hasSystem "SimCLR";
+	Ir:operatedBy Ir:Alphabet_Google;
+	Ir:operatedBy Ir:OpenAI;
+	Ir:developedBy Ir:Alphabet_Google;
+	Ir:developedBy Ir:OpenAI;
+	Ir:hasPurpose "Generate images";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/aoc-bikini-autocompletion#h.qazu03gd9ium".
+
+    Ir:AIAAIC0510 a Ir:Incident;
+	Ir:hasHeadline "Lee Luda AI chatbot";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:S_Korea;
+	Ir:applicationSector Ir:Media_entertainment_sports_arts;
+	Ir:hasSystem "Lee Luda";
+	Ir:operatedBy Ir:Scatter_Lab;
+	Ir:developedBy Ir:Scatter_Lab;
+	Ir:hasPurpose "Interact with users";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/lee-luda-chatbot#h.d1amvpbxptbz".
+
+    Ir:AIAAIC0509 a Ir:Incident;
+	Ir:hasHeadline "Teleperformance TP Observer employee monitoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:hasIncidentRegion Ir:France;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:operatedBy Ir:Teleperformance;
+	Ir:developedBy Ir:Teleperformance;
+	Ir:hasPurpose "Monitor employee behaviour";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/teleperformancetp-observer-employee-monitoring#h.rk391iydxx2j".
+
+    Ir:AIAAIC0508 a Ir:Incident;
+	Ir:hasHeadline "Tiktok personal data sharing";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:operatedBy Ir:ByteDance_TikTok;
+	Ir:developedBy Ir:ByteDance_TikTok;
+	Ir:hasPurpose "Collect personal data";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/tiktok-personal-data-harvesting-sales#h.nhzz75pbee1t".
+
+    Ir:AIAAIC0507 a Ir:Incident;
+	Ir:hasHeadline "Verkada surveillance cameras data breach";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Business_professional_services;
+	Ir:operatedBy Ir:Verkada;
+	Ir:operatedBy Ir:Tesla;
+	Ir:operatedBy Ir:Cloudflare;
+	Ir:operatedBy Ir:Halifax_Health;
+	Ir:developedBy Ir:Verkada;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasPurpose "Identify individuals";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/verkada-surveillance-cameras-data-breach#h.o9i6udb6fpt8".
+
+    Ir:AIAAIC0506 a Ir:Incident;
+	Ir:hasHeadline "Amazon Driveri delivery driver safety monitoring";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:hasSystem "Netradyne Driveri";
+	Ir:operatedBy Ir:Amazon;
+	Ir:developedBy Ir:Netradyne;
+	Ir:hasPurpose "Improve safety";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/amazon-delivery-driver-safety-cameras#h.h7lptovqoqzn".
+
+    Ir:AIAAIC0505 a Ir:Incident;
+	Ir:hasHeadline "Pyth Bitcoin glitch";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:hasSystem "Pyth";
+	Ir:operatedBy Ir:Pyth;
+	Ir:developedBy Ir:Pyth;
+	Ir:hasPurpose "Provide pricing information";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/pyth-bitcoin-glitch#h.5a78uwun5ws8".
+
+    Ir:AIAAIC0504 a Ir:Incident;
+	Ir:hasHeadline "Deliveroo Italy rider reliability discrimination";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:Italy;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Deliveroo;
+	Ir:developedBy Ir:Deliveroo;
+	Ir:hasPurpose "Determine rider reliability";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/deliveroo-italy-rider-shift-management-algorithm#h.9mvnfh6oc22w".
+
+    Ir:AIAAIC0503 a Ir:Incident;
+	Ir:hasHeadline "Deliveroo UK rider management, pay";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Deliveroo;
+	Ir:developedBy Ir:Deliveroo;
+	Ir:hasPurpose "Determine rider pay";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/deliveroo-uk-rider-management-algorithm#h.pg3xv97epgoj".
+
+    Ir:AIAAIC0502 a Ir:Incident;
+	Ir:hasHeadline "Doordash order matching algorithm";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Doordash;
+	Ir:developedBy Ir:Doordash;
+	Ir:hasPurpose "Determine rider pay";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/doordash-order-matching-algorithm#h.gekh4qvnraa2".
+
+    Ir:AIAAIC0501 a Ir:Incident;
+	Ir:hasHeadline "Uber Eats 'racist' facial identification";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Uber;
+	Ir:developedBy Ir:Microsoft;
+	Ir:hasPurpose "Identify/verify riders";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uber-eats-facial-identification#h.y1fryr9ifoym".
+
+    Ir:AIAAIC0500 a Ir:Incident;
+	Ir:hasHeadline "Uber/Postmates gig worker scamming";
+	Ir:hasIncidentYear 2021;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Uber_Postmates;
+	Ir:developedBy Ir:Uber_Postmates;
+	Ir:hasPurpose "Manage employees";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uber-postmates-gig-worker-fraud#h.eue58rne3ogi".
+
+    Ir:AIAAIC0443 a Ir:Incident;
+	Ir:hasHeadline "Mohsen Fakhrizadeh assassination";
+	Ir:hasIncidentYear 2020;
+	Ir:hasIncidentRegion Ir:Israel;
+	Ir:applicationSector Ir:Govt_-_military;
+	Ir:operatedBy Ir:Mossad;
+	Ir:developedBy Ir:FN_MAG;
+	Ir:hasPurpose "Kill/maim/damage/destroy";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/mohsen-fakhrizadeh-assassination#h.2zo6fz9ot4os".
+
+    Ir:AIAAIC0276 a Ir:Incident;
+	Ir:hasHeadline "ImageNet dataset stereotyping, privacy abuse";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:hasSystem "ImageNet";
+	Ir:hasSystem "ImageNet Roulette";
+	Ir:operatedBy Ir:Princeton_University;
+	Ir:developedBy Ir:Jia_Deng;
+	Ir:developedBy Ir:Wei_Dong__Richard_Socher;
+	Ir:developedBy Ir:Li-Jia_Li;
+	Ir:developedBy Ir:Kai_Li;
+	Ir:developedBy Ir:Fei-Fei_Li;
+	Ir:hasPurpose "Identify objects";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/imagenet-dataset-racial-gender-stereotyping#h.7retv5gwf8ug".
+
+    Ir:AIAAIC0273 a Ir:Incident;
+	Ir:hasHeadline "Lockport City School District facial recognition";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_education;
+	Ir:hasSystem "AEGIS";
+	Ir:operatedBy Ir:Lockport_City_School_District;
+	Ir:developedBy Ir:SN_Technologies;
+	Ir:hasPurpose "Strengthen security";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/lockport-city-school-district-facial-recognition#h.yddexa32l463".
+
+    Ir:AIAAIC0214 a Ir:Incident;
+	Ir:hasHeadline "Instacart personal shopper pay algorithm";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Transport_logistics;
+	Ir:operatedBy Ir:Instacart;
+	Ir:developedBy Ir:Instacart;
+	Ir:hasPurpose "Calculate pay";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/instacart-personal-shopper-pay-algorithm#h.oqddsxjg3dwf".
+
+    Ir:AIAAIC0200 a Ir:Incident;
+	Ir:hasHeadline "DukeMTMC facial recognition dataset";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:hasSystem "DukeMTMC";
+	Ir:hasSystem "DukeMTMC-ReID";
+	Ir:hasSystem "DukeMTMC-SI-Tracklet";
+	Ir:hasSystem "DukeMTMC-VideoReID";
+	Ir:operatedBy Ir:CloudWalk;
+	Ir:operatedBy Ir:Hikvision;
+	Ir:operatedBy Ir:Megvii;
+	Ir:operatedBy Ir:SenseNets;
+	Ir:operatedBy Ir:SeeQuestor;
+	Ir:operatedBy Ir:SenseTime;
+	Ir:operatedBy Ir:Beihang_University;
+	Ir:operatedBy Ir:National_University_of_Defense_Technology__China;
+	Ir:operatedBy Ir:NEC;
+	Ir:operatedBy Ir:PLA_Army_Engineering_University;
+	Ir:developedBy Ir:Ergys_Ristani;
+	Ir:developedBy Ir:Francesco_Solera;
+	Ir:developedBy Ir:Roger_Zou;
+	Ir:developedBy Ir:Rita_Cucchiara;
+	Ir:developedBy Ir:Carlo_Tomasi;
+	Ir:developedBy Ir:Duke_University;
+	Ir:hasPurpose "Train facial recognition systems";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/dukemtsc-facial-recognition-dataset#h.z4ag57xc6i86".
+
+    Ir:AIAAIC0187 a Ir:Incident;
+	Ir:hasHeadline "Uber self-driving car pedestrian fatality";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Automotive;
+	Ir:operatedBy Ir:Rafaela_Vasquez;
+	Ir:operatedBy Ir:Uber;
+	Ir:developedBy Ir:Uber;
+	Ir:hasPurpose "Test autonomous driving";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/uber-self-driving-car-pedestrian-fatality#h.wp08u8wytkq4".
+
+    Ir:AIAAIC0166 a Ir:Incident;
+	Ir:hasHeadline "Met Police Gangs Violence Matrix";
+	Ir:hasIncidentYear 2018;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_police;
+	Ir:operatedBy Ir:Metropolitan_Police_Service__MPS_;
+	Ir:developedBy Ir:Metropolitan_Police_Service__MPS_;
+	Ir:hasPurpose "Predict gang violence risk";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/met-police-gangs-violence-matrix#h.8l8k5jw4fqwx".
+
+    Ir:AIAAIC0105 a Ir:Incident;
+	Ir:hasHeadline "Google DeepMind/Royal Free data sharing";
+	Ir:hasIncidentYear 2016;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Health;
+	Ir:hasSystem "Streams";
+	Ir:operatedBy Ir:Royal_Free_London_NHS_Foundation_Trust;
+	Ir:developedBy Ir:Alphabet_Google_Deepmind;
+	Ir:developedBy Ir:NHS;
+	Ir:hasPurpose "Detect & predict acute kidney disease";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/google-deepmind-royal-free-data-sharing#h.14ka5vj2ffrd".
+
+    Ir:AIAAIC063 a Ir:Incident;
+	Ir:hasHeadline "The DAO smart contracts hack";
+	Ir:hasIncidentYear 2016;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:Global;
+	Ir:applicationSector Ir:Banking_financial_services;
+	Ir:operatedBy Ir:The_DAO;
+	Ir:operatedBy Ir:Slock_it;
+	Ir:operatedBy Ir:Bity_SA;
+	Ir:operatedBy Ir:Ethereum_Foundation;
+	Ir:developedBy Ir:The_DAO;
+	Ir:developedBy Ir:Slock_it;
+	Ir:hasPurpose "Automate financial contracts";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/the-dao-smart-contracts-hack#h.1d3f6r5vrnt2".
+
+    Ir:AIAAIC053 a Ir:Incident;
+	Ir:hasHeadline "Arkansas ARChoices RUGs algorithm";
+	Ir:hasIncidentYear 2017;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Govt_-_welfare;
+	Ir:applicationSector Ir:Govt_-_health;
+	Ir:operatedBy Ir:Arkansas_Department_of_Human_Services__DHS_;
+	Ir:operatedBy Ir:Center_for_Information_Management;
+	Ir:developedBy Ir:University_of_Michigan;
+	Ir:developedBy Ir:Brant_Fries;
+	Ir:hasPurpose "Assess Medicaid benefits";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/arkansas-archoices-rugs-algorithm#h.luvobuhyqs9h".
+
+    Ir:AIAAIC037 a Ir:Incident;
+	Ir:hasHeadline "Stanford University Brainwash dataset";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:hasIncidentRegion Ir:China;
+	Ir:applicationSector Ir:Research_academia;
+	Ir:hasSystem "Brainwash";
+	Ir:operatedBy Ir:Beijing_University_of_Technology;
+	Ir:operatedBy Ir:Delft_University_of_Technology;
+	Ir:operatedBy Ir:Honeywell_Technology_Solutions;
+	Ir:operatedBy Ir:Huawei;
+	Ir:operatedBy Ir:IDIAP_Research_Institute;
+	Ir:operatedBy Ir:IIT_Madras;
+	Ir:operatedBy Ir:Megvii;
+	Ir:operatedBy Ir:National_University_of_Defense_Technology__China;
+	Ir:operatedBy Ir:North_University_of_China;
+	Ir:operatedBy Ir:Shenzhen_University;
+	Ir:operatedBy Ir:Qualcomm;
+	Ir:operatedBy Ir:University_of_Electronic_Science_and_Technology_of_China;
+	Ir:developedBy Ir:Stanford_University;
+	Ir:developedBy Ir:Stewart_Russell;
+	Ir:developedBy Ir:Mykhaylo_Andriluka;
+	Ir:developedBy Ir:Andrew_Ng;
+	Ir:hasPurpose "Train algorithm effectiveness";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/stanford-brainwash-dataset#h.xs49ulcl51p8".
+
+    Ir:AIAAIC031 a Ir:Incident;
+	Ir:hasHeadline "Microsoft Celeb dataset";
+	Ir:hasIncidentYear 2019;
+	Ir:hasIncidentRegion Ir:USA;
+	Ir:applicationSector Ir:Technology;
+	Ir:hasSystem "MS-Celeb-1M";
+	Ir:hasSystem "MS1M-IBUG";
+	Ir:hasSystem "MS1M-ArcFace";
+	Ir:hasSystem "MS1M-RetinaFace";
+	Ir:operatedBy Ir:Alibaba;
+	Ir:operatedBy Ir:École_Polytechnique_Fédérale_de_Lausanne;
+	Ir:operatedBy Ir:Hitachi;
+	Ir:operatedBy Ir:Huawei;
+	Ir:operatedBy Ir:IBM;
+	Ir:operatedBy Ir:IDIAP_Research_Institute;
+	Ir:operatedBy Ir:Megvii;
+	Ir:operatedBy Ir:Microsoft;
+	Ir:operatedBy Ir:National_University_of_Defense_Technology__NUDT_;
+	Ir:operatedBy Ir:Nvidia;
+	Ir:operatedBy Ir:Panasonic;
+	Ir:operatedBy Ir:SenseTime;
+	Ir:operatedBy Ir:Universidad_Autónoma_de_Madrid;
+	Ir:operatedBy Ir:University_of_Leicester;
+	Ir:operatedBy Ir:Multiple;
+	Ir:developedBy Ir:Microsoft;
+	Ir:hasPurpose "Train facial recognition systems";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/microsoft-celeb-ms-celeb-1m-dataset#h.y75edz9428zz".
+
+    Ir:AIAAIC024 a Ir:Incident;
+	Ir:hasHeadline "Foreign student visa English language test system";
+	Ir:hasIncidentYear 2014;
+	Ir:hasIncidentRegion Ir:UK;
+	Ir:applicationSector Ir:Govt_-_immigration;
+	Ir:operatedBy Ir:UK_Home_Office;
+	Ir:developedBy Ir:Educational_Testing_Service__ETS_;
+	Ir:hasPurpose "Reduce cheating/fraud";
+	Ir:hasURL "https://www.aiaaic.org/aiaaic-repository/uk-visa-foreign-language-test-cheating#h.l4rdxih65djh".

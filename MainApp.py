@@ -1,6 +1,7 @@
-from flask import Flask, render_template, jsonify, request
+from flask import *
 import sparql
 from forms import *
+import Similarity
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'any secret string'
@@ -8,7 +9,15 @@ app.config['SECRET_KEY'] = 'any secret string'
 Stakeholders = sparql.getStakeholders()
 StakeholderIssues = sparql.getStakeholdersIssues()
 IssueDescription = sparql.getIssueDescription(StakeholderIssues)
+Similarity.initialize()
 
+# print(StakeholderIssues)
+messages={"Stakeholders":Stakeholders,
+          "Stake_len":len(Stakeholders),
+          "StakeholderIssues":StakeholderIssues,
+          "IssueDescription" : IssueDescription
+          }
+print("Messages: ",messages)
 # @app.route('/', methods=['GET', 'POST'])
 # def index():
 #     # print(StakeholderIssues)
@@ -22,14 +31,6 @@ IssueDescription = sparql.getIssueDescription(StakeholderIssues)
 
 @app.route('/annotate', methods=['GET', 'POST'])
 def annotate_handler():
-
-    # print(StakeholderIssues)
-    messages={"Stakeholders":Stakeholders,
-              "Stake_len":len(Stakeholders),
-              "StakeholderIssues":StakeholderIssues,
-              "IssueDescription" : IssueDescription
-              }
-    print("Messages: ",messages)
 
     #Create Stakeholder tuple for form choices
     Stakeholderchoices= [(c[0], c[1]) for c in Stakeholders]
@@ -55,13 +56,6 @@ app.add_url_rule('/', 'annotate', annotate_handler)
 @app.route('/search', methods=['GET', 'POST'])
 def search_handler():
 
-    # print(StakeholderIssues)
-    messages={"Stakeholders":Stakeholders,
-              "Stake_len":len(Stakeholders),
-              "StakeholderIssues":StakeholderIssues,
-              "IssueDescription" : IssueDescription
-              }
-    print("Messages: ",messages)
 
     #Create Stakeholder tuple for form choices
     Stakeholderchoices= [(c[0], c[1]) for c in Stakeholders]
@@ -75,10 +69,23 @@ def search_handler():
     print("Inside Search")
 
     if request.method=="POST":
-        # res = sparql.InsertData(form)
-        return "Search SUCCESS"
+
+        if sparql.is_filled(search_form.Search_IncidentId.data):
+            return redirect(url_for('viewIncident', incident= search_form.Search_IncidentId.data))
+        elif sparql.is_filled(search_form.Similar_IncidentId.data):
+            res = Similarity.getSimilarIncidents(search_form.Similar_IncidentId.data)
+            return render_template('/SimilarList.html', messages=messages, res=res)
+        else:
+            res = sparql.SearchData(search_form)
+            return render_template('/SearchList.html', messages=messages, res=res)
 
     return render_template('/search.html', messages=messages, search_form=search_form)
+
+@app.route('/view/<incident>')
+def viewIncident(incident):
+
+    res = sparql.SearchIncidentData(incident)
+    return render_template('/view.html', messages=messages, res=res, incident=incident)
 
 @app.route('/impact/<stakeholder>')
 def impact(stakeholder):
